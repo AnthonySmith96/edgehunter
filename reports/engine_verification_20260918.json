@@ -1,0 +1,56 @@
+{
+  "test_suite": {
+    "tests": "250",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "time": "37.761"
+  },
+  "final_capture_adjustment_tests": 8,
+  "mypy_source_files": 51,
+  "ruff": "PASS",
+  "frozen_source_report_sha256": "c45df72eebc08b721b318d36d96f914227a3d6f0a33904888ab74f95d79b611e",
+  "current_manifest_sha256": "6600c461c706d4aa89e3a7010df818881c6bc22f58878078b92be4f80dddebd7",
+  "current_manifest": "config/btc_challenger_v5.json",
+  "jev_access": {
+    "authentication_verified": true,
+    "endpoint": "GET /v1/models",
+    "http_status": 200,
+    "inference_requested": false,
+    "key_present": true,
+    "models": [
+      "jev-latest",
+      "jev-preview"
+    ],
+    "status": "AUTHENTICATED_MODEL_LIST"
+  },
+  "jev_inference": {
+    "evaluation_mode": "SHADOW_ONLY",
+    "financial_edge_proven": false,
+    "jev_latency_ms": null,
+    "jev_profitability_demonstrated": false,
+    "key_present": true,
+    "limitations": [
+      "No Jev forecast has been calibrated on this market.",
+      "One API timing sample does not establish tail latency or forecasting quality.",
+      "The old live feed uses ticker/ask features; this probe cannot prove historical replication.",
+      "Prediction scores and relevance scores are not interchangeable."
+    ],
+    "live_call_completed": false,
+    "live_requested": true,
+    "model": "jev-1.13.0",
+    "provider_budget_usd": "0",
+    "status": "EXPLICIT_PROVIDER_BUDGET_REQUIRED"
+  },
+  "financial_edge_proven": false,
+  "publication_diagnostic": "reports/coinbase_candle_publication_probe.json",
+  "prospective_live_capture": {
+    "snapshot": "reports/btc_challenger_first_prediction.json",
+    "predictions": 1,
+    "paper_fills": 0,
+    "cash_sim_usd": "100",
+    "rejection_counts": {
+      "NO_COSTED_EDGE": 1
+    }
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "as_of": "2026-09-18T02:14:29.320353+00:00",
+  "mode": "PUBLIC_READ_ONLY_SCAN",
+  "markets_requested": 500,
+  "markets_returned": 500,
+  "eligible_books": 9,
+  "opportunities": [],
+  "top_near_misses": [
+    {
+      "market_id": "3866508",
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $150 in September?",
+      "status": "NO_EDGE",
+      "condition_id": "0x63e89bec83a4793994c937bd041cd5b9035917249382c9d97b6e62749180a13a",
+      "asks": [
+        {
+          "token": "111687640145574168884498082287755281891083061574227544269972956823778407304003",
+          "ask": "0.008",
+          "size": "458",
+          "tick": "0.001",
+          "minimum": "5",
+          "event_time": "2026-09-18T02:14:08.336000+00:00"
+        },
+        {
+          "token": "41296840755710187594697868230652394316340131836348530492072496327848341834044",
+          "ask": "0.995",
+          "size": "153.61",
+          "tick": "0.001",
+          "minimum": "5",
+          "event_time": "2026-09-18T02:14:08.336000+00:00"
+        }
+      ],
+      "gross_cost_per_pair": "1.003",
+      "gross_edge_per_pair": "-0.003",
+      "conservative_cost_per_pair": "1.00629030",
+      "conservative_edge_per_pair": "-0.00629030",
+      "capacity_pairs": "153.61",
+      "minimum_pairs": "5",
+      "assumptions": {
+        "payout": "1 SIM_USD for a complete binary pair",
+        "adverse_selection": "one tick per leg",
+        "fee_sensitivity": "0.10*p*(1-p) per leg",
+        "execution": "two legs are not atomic; scan alone never counts a fill"
+      }
+    },
+    {
+      "market_id": "3866509",
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $140 in September?",
+      "status": "NO_EDGE",
+      "condition_id": "0xa00e736834c2af3f8225a839f4576283a174fd0a134980bf51bed733430934ff",
+      "asks": [
+        {
+          "token": "1658299363669902077827400052700350311719948499937557923234083753315937557816",
+          "ask": "0.01",
+          "size": "573.54",
+          "tick": "0.001",
+          "minimum": "5",
+          "event_time": "2026-09-18T02:13:47.548000+00:00"
+        },
+        {
+          "token": "91948993379066750603636308444215294538964550474575227941265783859080165323026",
+          "ask": "0.993",
+          "size": "200",
+          "tick": "0.001",
+          "minimum": "5",
+          "event_time": "2026-09-18T02:13:47.548000+00:00"
+        }
+      ],
+      "gross_cost_per_pair": "1.003",
+      "gross_edge_per_pair": "-0.003",
+      "conservative_cost_per_pair": "1.00668430",
+      "conservative_edge_per_pair": "-0.00668430",
+      "capacity_pairs": "200",
+      "minimum_pairs": "5",
+      "assumptions": {
+        "payout": "1 SIM_USD for a complete binary pair",
+        "adverse_selection": "one tick per leg",
+        "fee_sensitivity": "0.10*p*(1-p) per leg",
+        "execution": "two legs are not atomic; scan alone never counts a fill"
+      }
+    },
+    {
+      "market_id": "3866510",
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $130 in September?",
+      "status": "NO_EDGE",
+      "condition_id": "0x4fff0816578447a11fba1fa044f82b7af092e68a1e97943c61e7e1ce7d4f6f86",
+      "asks": [
+        {
+          "token": "87828771569365613252707530995233213348172504759462422743743553754403273380618",
+          "ask": "0.018",
+          "size": "17802.3",
+          "tick": "0.001",
+          "minimum": "5",
+          "event_time": "2026-09-18T02:13:47.485000+00:00"
+        },
+        {
+          "token": "96466873015831211832484360993689142721611775216135659716230744624514485341911",
+          "ask": "0.989",
+          "size": "23222.47",
+          "tick": "0.001",
+          "minimum": "5",
+          "event_time": "2026-09-18T02:13:47.485000+00:00"
+        }
+      ],
+      "gross_cost_per_pair": "1.007",
+      "gross_edge_per_pair": "-0.007",
+      "conservative_cost_per_pair": "1.01185390",
+      "conservative_edge_per_pair": "-0.01185390",
+      "capacity_pairs": "17802.3",
+      "minimum_pairs": "5",
+      "assumptions": {
+        "payout": "1 SIM_USD for a complete binary pair",
+        "adverse_selection": "one tick per leg",
+        "fee_sensitivity": "0.10*p*(1-p) per leg",
+        "execution": "two legs are not atomic; scan alone never counts a fill"
+      }
+    },
+    {
+      "market_id": "4035901",
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $115 in September?",
+      "status": "NO_EDGE",
+      "condition_id": "0x774f7f3919ba2a94229d889bccf1c9c88347e21790c3d9d66d604c5be616c224",
+      "asks": [
+        {
+          "token": "25846511357344947422285438161630770076911554211585141844165210290421263502462",
+          "ask": "0.083",
+          "size": "163.99",
+          "tick": "0.001",
+          "minimum": "5",
+          "event_time": "2026-09-18T02:14:19.262000+00:00"
+        },
+        {
+          "token": "48997074507240359616711748064597101429084220802273269042911597047117219823609",
+          "ask": "0.929",
+          "size": "3720.22",
+          "tick": "0.001",
+          "minimum": "5",
+          "event_time": "2026-09-18T02:14:19.262000+00:00"
+        }
+      ],
+      "gross_cost_per_pair": "1.012",
+      "gross_edge_per_pair": "-0.012",
+      "conservative_cost_per_pair": "1.02820440",
+      "conservative_edge_per_pair": "-0.02820440",
+      "capacity_pairs": "163.99",
+      "minimum_pairs": "5",
+      "assumptions": {
+        "payout": "1 SIM_USD for a complete binary pair",
+        "adverse_selection": "one tick per leg",
+        "fee_sensitivity": "0.10*p*(1-p) per leg",
+        "execution": "two legs are not atomic; scan alone never counts a fill"
+      }
+    },
+    {
+      "market_id": "3866515",
+      "question": "Will WTI Crude Oil (WTI) hit (LOW) $80 in September?",
+      "status": "NO_EDGE",
+      "condition_id": "0xc102a040f2842be662d0544d0b68f048e805d0210fe2a3b1cb83521d29584f2d",
+      "asks": [
+        {
+          "token": "89542488140701002795860247565641013960145453279785346506670235100882608783461",
+          "ask": "0.08",
+          "size": "677.04",
+          "tick": "0.01",
+          "minimum": "5",
+          "event_time": "2026-09-18T02:13:33.089000+00:00"
+        },
+        {
+          "token": "103216878146106839176259085892501749169837749326876123361316747114893299247057",
+          "ask": "0.93",
+          "size": "43",
+          "tick": "0.01",
+          "minimum": "5",
+          "event_time": "2026-09-18T02:13:33.089000+00:00"
+        }
+      ],
+      "gross_cost_per_pair": "1.01",
+      "gross_edge_per_pair": "-0.01",
+      "conservative_cost_per_pair": "1.043830",
+      "conservative_edge_per_pair": "-0.043830",
+      "capacity_pairs": "43",
+      "minimum_pairs": "5",
+      "assumptions": {
+        "payout": "1 SIM_USD for a complete binary pair",
+        "adverse_selection": "one tick per leg",
+        "fee_sensitivity": "0.10*p*(1-p) per leg",
+        "execution": "two legs are not atomic; scan alone never counts a fill"
+      }
+    },
+    {
+      "market_id": "4413392",
+      "question": "Will WTI Crude Oil (WTI) hit (LOW) $95 in September?",
+      "status": "NO_EDGE",
+      "condition_id": "0xc0fff3b5ed4d7c82647b11050d56629450902b05c1562d8476df1452ae46510a",
+      "asks": [
+        {
+          "token": "6222784785313230294327029188015606088069622624510802248578044329127504364661",
+          "ask": "0.84",
+          "size": "29.79",
+          "tick": "0.01",
+          "minimum": "5",
+          "event_time": "2026-09-18T02:14:18.958000+00:00"
+        },
+        {
+          "token": "89846054039224177551607164007605616293720918804021686872835547280311401586447",
+          "ask": "0.17",
+          "size": "426",
+          "tick": "0.01",
+          "minimum": "5",
+          "event_time": "2026-09-18T02:14:18.958000+00:00"
+        }
+      ],
+      "gross_cost_per_pair": "1.01",
+      "gross_edge_per_pair": "-0.01",
+      "conservative_cost_per_pair": "1.057510",
+      "conservative_edge_per_pair": "-0.057510",
+      "capacity_pairs": "29.79",
+      "minimum_pairs": "5",
+      "assumptions": {
+        "payout": "1 SIM_USD for a complete binary pair",
+        "adverse_selection": "one tick per leg",
+        "fee_sensitivity": "0.10*p*(1-p) per leg",
+        "execution": "two legs are not atomic; scan alone never counts a fill"
+      }
+    },
+    {
+      "market_id": "4218286",
+      "question": "Will WTI Crude Oil (WTI) hit (LOW) $90 in September?",
+      "status": "NO_EDGE",
+      "condition_id": "0x62cf9f20cd870e990e8f369e96d3a57b82caa931e248355e843239a7ee7fd211",
+      "asks": [
+        {
+          "token": "106865169592299548286587696300190957552253330566906307858266701916595931430747",
+          "ask": "0.466",
+          "size": "11.23",
+          "tick": "0.001",
+          "minimum": "5",
+          "event_time": "2026-09-18T02:14:13.190000+00:00"
+        },
+        {
+          "token": "107382335729882584132242622392619126691496748186166138439329887743369753286473",
+          "ask": "0.557",
+          "size": "36.07",
+          "tick": "0.001",
+          "minimum": "5",
+          "event_time": "2026-09-18T02:14:13.190000+00:00"
+        }
+      ],
+      "gross_cost_per_pair": "1.023",
+      "gross_edge_per_pair": "-0.023",
+      "conservative_cost_per_pair": "1.07455470",
+      "conservative_edge_per_pair": "-0.07455470",
+      "capacity_pairs": "11.23",
+      "minimum_pairs": "5",
+      "assumptions": {
+        "payout": "1 SIM_USD for a complete binary pair",
+        "adverse_selection": "one tick per leg",
+        "fee_sensitivity": "0.10*p*(1-p) per leg",
+        "execution": "two legs are not atomic; scan alone never counts a fill"
+      }
+    },
+    {
+      "market_id": "3866512",
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in September?",
+      "status": "NO_EDGE",
+      "condition_id": "0x1cadccc29386c1913644c6197f92a7147d1db345ccfa3cab1429da293c9e7524",
+      "asks": [
+        {
+          "token": "1469665914957747794159473535172018678649224031448821828800084553716875180650",
+          "ask": "0.16",
+          "size": "43.29",
+          "tick": "0.01",
+          "minimum": "5",
+          "event_time": "2026-09-18T02:14:11.120000+00:00"
+        },
+        {
+          "token": "108318438641119276756487723540426498152248706490125830253351171007133496926091",
+          "ask": "0.87",
+          "size": "59.58",
+          "tick": "0.01",
+          "minimum": "5",
+          "event_time": "2026-09-18T02:14:11.120000+00:00"
+        }
+      ],
+      "gross_cost_per_pair": "1.03",
+      "gross_edge_per_pair": "-0.03",
+      "conservative_cost_per_pair": "1.074670",
+      "conservative_edge_per_pair": "-0.074670",
+      "capacity_pairs": "43.29",
+      "minimum_pairs": "5",
+      "assumptions": {
+        "payout": "1 SIM_USD for a complete binary pair",
+        "adverse_selection": "one tick per leg",
+        "fee_sensitivity": "0.10*p*(1-p) per leg",
+        "execution": "two legs are not atomic; scan alone never counts a fill"
+      }
+    },
+    {
+      "market_id": "4618778",
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $105 in September?",
+      "status": "NO_EDGE",
+      "condition_id": "0xd7b7147b215c5c31c31a9c54d6e6c6643638fb602402ca8cfdd09644c54bdb70",
+      "asks": [
+        {
+          "token": "4040504988600425951977678769699024642848232259213369529341646919575506575099",
+          "ask": "0.39",
+          "size": "750.67",
+          "tick": "0.01",
+          "minimum": "5",
+          "event_time": "2026-09-18T02:13:48.604000+00:00"
+        },
+        {
+          "token": "69206265349583526100310761908106924398926377846375309445881584443418316159959",
+          "ask": "0.63",
+          "size": "10",
+          "tick": "0.01",
+          "minimum": "5",
+          "event_time": "2026-09-18T02:13:48.604000+00:00"
+        }
+      ],
+      "gross_cost_per_pair": "1.02",
+      "gross_edge_per_pair": "-0.02",
+      "conservative_cost_per_pair": "1.087040",
+      "conservative_edge_per_pair": "-0.087040",
+      "capacity_pairs": "10",
+      "minimum_pairs": "5",
+      "assumptions": {
+        "payout": "1 SIM_USD for a complete binary pair",
+        "adverse_selection": "one tick per leg",
+        "fee_sensitivity": "0.10*p*(1-p) per leg",
+        "execution": "two legs are not atomic; scan alone never counts a fill"
+      }
+    }
+  ],
+  "status_counts": {
+    "INELIGIBLE": 491,
+    "NO_EDGE": 9
+  },
+  "financial_edge_proven": false
+}

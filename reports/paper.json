@@ -1,0 +1,42 @@
+{
+  "period": "daily",
+  "timezone": "America/Mexico_City",
+  "as_of": "2026-09-18T01:51:22.844840+00:00",
+  "start_utc": "2026-09-17T06:00:00+00:00",
+  "end_utc": "2026-09-18T06:00:00+00:00",
+  "realized_pnl_before_fees": "0",
+  "fees": "0",
+  "net_trading_pnl": "0",
+  "operating_cost": "0",
+  "net_business_pnl": "0",
+  "deposits": "1000",
+  "collateral": "SIM_USD",
+  "valuation": "REALIZED_ONLY; positions not marked as guaranteed cash",
+  "journal": {
+    "collateral": "SIM_USD",
+    "cash": "1000",
+    "reserved": "0",
+    "inventory_cost": "0",
+    "deposits": "1000",
+    "fees": "0",
+    "realized_pnl_before_fees": "0",
+    "net_trading_pnl": "0",
+    "operating_cost": "0",
+    "net_business_pnl": "0",
+    "realized_high_water": "0",
+    "business_high_water": "0",
+    "positions": [],
+    "control": {
+      "halted": "false",
+      "halt_reason": "",
+      "paused": "false",
+      "collateral": "SIM_USD",
+      "lease_expires_at": "2026-09-18T01:52:18.661430+00:00",
+      "realized_high_water": "0",
+      "business_high_water": "0"
+    },
+    "ledger_valid": true
+  },
+  "kind": "VIRTUAL_MONEY",
+  "exported_entries": 2
+}

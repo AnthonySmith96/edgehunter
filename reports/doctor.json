@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-09-18T01:50:59.871884+00:00",
+  "python": "3.11.1",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "architecture": "AMD64",
+  "free_disk_gb": 2.37,
+  "workspace": ".",
+  "mode_ceiling": "PAPER",
+  "live_capability": false,
+  "python_supported": true,
+  "disk_ok": true,
+  "deployment": "NOT_DEPLOYED",
+  "incremental_provider_budget": "0",
+  "secrets": "REDACTED; project credentials stay in restricted .local directories",
+  "local_support": "Native Windows local paper supported; Linux deployment templates provided"
+}

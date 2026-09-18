@@ -1,0 +1,12 @@
+{
+  "authentication_verified": true,
+  "endpoint": "GET /v1/models",
+  "http_status": 200,
+  "inference_requested": false,
+  "key_present": true,
+  "models": [
+    "jev-latest",
+    "jev-preview"
+  ],
+  "status": "AUTHENTICATED_MODEL_LIST"
+}

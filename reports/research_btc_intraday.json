@@ -1,0 +1,277 @@
+{
+  "status": "NO_TRAIN_EDGE",
+  "dataset_sha256": "12b3645109a37b11a5d1038d9c60d55010deff5ae0debc8330511fdcdd3af1b4",
+  "markets": 575,
+  "train_markets": 402,
+  "holdout_markets": 173,
+  "specifications": 72,
+  "development_top": [
+    {
+      "spec": {
+        "horizon_seconds": 120,
+        "min_edge": 0.08,
+        "max_ask": 0.8,
+        "vol_scale": 1.2
+      },
+      "slippage_per_share": 0.02,
+      "trades": 1,
+      "wins": 1,
+      "net_pnl": 6.961298557017522,
+      "return_on_stake": 0.6961298557017522,
+      "trade_log": [
+        {
+          "slug": "btc-updown-5m-1789582500",
+          "epoch": 1789582500,
+          "side": "UP",
+          "market_price": 0.545,
+          "entry_price": 0.5650000000000001,
+          "conservative_probability": 0.6744949031111509,
+          "edge": 0.08491740311115084,
+          "shares": 16.96129855701752,
+          "payout": 1,
+          "pnl": 6.961298557017522
+        }
+      ]
+    },
+    {
+      "spec": {
+        "horizon_seconds": 120,
+        "min_edge": 0.08,
+        "max_ask": 0.9,
+        "vol_scale": 1.2
+      },
+      "slippage_per_share": 0.02,
+      "trades": 1,
+      "wins": 1,
+      "net_pnl": 6.961298557017522,
+      "return_on_stake": 0.6961298557017522,
+      "trade_log": [
+        {
+          "slug": "btc-updown-5m-1789582500",
+          "epoch": 1789582500,
+          "side": "UP",
+          "market_price": 0.545,
+          "entry_price": 0.5650000000000001,
+          "conservative_probability": 0.6744949031111509,
+          "edge": 0.08491740311115084,
+          "shares": 16.96129855701752,
+          "payout": 1,
+          "pnl": 6.961298557017522
+        }
+      ]
+    },
+    {
+      "spec": {
+        "horizon_seconds": 120,
+        "min_edge": 0.1,
+        "max_ask": 0.8,
+        "vol_scale": 1.0
+      },
+      "slippage_per_share": 0.02,
+      "trades": 1,
+      "wins": 1,
+      "net_pnl": 6.961298557017522,
+      "return_on_stake": 0.6961298557017522,
+      "trade_log": [
+        {
+          "slug": "btc-updown-5m-1789582500",
+          "epoch": 1789582500,
+          "side": "UP",
+          "market_price": 0.545,
+          "entry_price": 0.5650000000000001,
+          "conservative_probability": 0.7056378329072025,
+          "edge": 0.11606033290720244,
+          "shares": 16.96129855701752,
+          "payout": 1,
+          "pnl": 6.961298557017522
+        }
+      ]
+    },
+    {
+      "spec": {
+        "horizon_seconds": 120,
+        "min_edge": 0.1,
+        "max_ask": 0.9,
+        "vol_scale": 1.0
+      },
+      "slippage_per_share": 0.02,
+      "trades": 1,
+      "wins": 1,
+      "net_pnl": 6.961298557017522,
+      "return_on_stake": 0.6961298557017522,
+      "trade_log": [
+        {
+          "slug": "btc-updown-5m-1789582500",
+          "epoch": 1789582500,
+          "side": "UP",
+          "market_price": 0.545,
+          "entry_price": 0.5650000000000001,
+          "conservative_probability": 0.7056378329072025,
+          "edge": 0.11606033290720244,
+          "shares": 16.96129855701752,
+          "payout": 1,
+          "pnl": 6.961298557017522
+        }
+      ]
+    },
+    {
+      "spec": {
+        "horizon_seconds": 60,
+        "min_edge": 0.1,
+        "max_ask": 0.8,
+        "vol_scale": 1.0
+      },
+      "slippage_per_share": 0.02,
+      "trades": 3,
+      "wins": 2,
+      "net_pnl": 2.103993075837913,
+      "return_on_stake": 0.07013310252793042,
+      "trade_log": [
+        {
+          "slug": "btc-updown-5m-1789554600",
+          "epoch": 1789554600,
+          "side": "DOWN",
+          "market_price": 0.565,
+          "entry_price": 0.585,
+          "conservative_probability": 0.725763513139893,
+          "edge": 0.11648601313989299,
+          "shares": 16.412882471451844,
+          "payout": 0,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1789582500",
+          "epoch": 1789582500,
+          "side": "UP",
+          "market_price": 0.555,
+          "entry_price": 0.5750000000000001,
+          "conservative_probability": 0.7120900915837407,
+          "edge": 0.11265259158374064,
+          "shares": 16.68230632884996,
+          "payout": 1,
+          "pnl": 6.682306328849961
+        },
+        {
+          "slug": "btc-updown-5m-1789605300",
+          "epoch": 1789605300,
+          "side": "UP",
+          "market_price": 0.605,
+          "entry_price": 0.625,
+          "conservative_probability": 0.765979600452116,
+          "edge": 0.117542100452116,
+          "shares": 15.421686746987952,
+          "payout": 1,
+          "pnl": 5.421686746987952
+        }
+      ]
+    },
+    {
+      "spec": {
+        "horizon_seconds": 60,
+        "min_edge": 0.1,
+        "max_ask": 0.9,
+        "vol_scale": 1.0
+      },
+      "slippage_per_share": 0.02,
+      "trades": 3,
+      "wins": 2,
+      "net_pnl": 2.103993075837913,
+      "return_on_stake": 0.07013310252793042,
+      "trade_log": [
+        {
+          "slug": "btc-updown-5m-1789554600",
+          "epoch": 1789554600,
+          "side": "DOWN",
+          "market_price": 0.565,
+          "entry_price": 0.585,
+          "conservative_probability": 0.725763513139893,
+          "edge": 0.11648601313989299,
+          "shares": 16.412882471451844,
+          "payout": 0,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1789582500",
+          "epoch": 1789582500,
+          "side": "UP",
+          "market_price": 0.555,
+          "entry_price": 0.5750000000000001,
+          "conservative_probability": 0.7120900915837407,
+          "edge": 0.11265259158374064,
+          "shares": 16.68230632884996,
+          "payout": 1,
+          "pnl": 6.682306328849961
+        },
+        {
+          "slug": "btc-updown-5m-1789605300",
+          "epoch": 1789605300,
+          "side": "UP",
+          "market_price": 0.605,
+          "entry_price": 0.625,
+          "conservative_probability": 0.765979600452116,
+          "edge": 0.117542100452116,
+          "shares": 15.421686746987952,
+          "payout": 1,
+          "pnl": 5.421686746987952
+        }
+      ]
+    },
+    {
+      "spec": {
+        "horizon_seconds": 120,
+        "min_edge": 0.1,
+        "max_ask": 0.8,
+        "vol_scale": 1.2
+      },
+      "slippage_per_share": 0.02,
+      "trades": 0,
+      "wins": 0,
+      "net_pnl": 0,
+      "return_on_stake": null,
+      "trade_log": []
+    },
+    {
+      "spec": {
+        "horizon_seconds": 120,
+        "min_edge": 0.1,
+        "max_ask": 0.9,
+        "vol_scale": 1.2
+      },
+      "slippage_per_share": 0.02,
+      "trades": 0,
+      "wins": 0,
+      "net_pnl": 0,
+      "return_on_stake": null,
+      "trade_log": []
+    },
+    {
+      "spec": {
+        "horizon_seconds": 180,
+        "min_edge": 0.08,
+        "max_ask": 0.8,
+        "vol_scale": 1.2
+      },
+      "slippage_per_share": 0.02,
+      "trades": 0,
+      "wins": 0,
+      "net_pnl": 0,
+      "return_on_stake": null,
+      "trade_log": []
+    },
+    {
+      "spec": {
+        "horizon_seconds": 180,
+        "min_edge": 0.08,
+        "max_ask": 0.9,
+        "vol_scale": 1.2
+      },
+      "slippage_per_share": 0.02,
+      "trades": 0,
+      "wins": 0,
+      "net_pnl": 0,
+      "return_on_stake": null,
+      "trade_log": []
+    }
+  ],
+  "financial_edge_proven": false
+}

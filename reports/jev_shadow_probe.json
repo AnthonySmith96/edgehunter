@@ -1,0 +1,18 @@
+{
+  "evaluation_mode": "SHADOW_ONLY",
+  "financial_edge_proven": false,
+  "jev_latency_ms": null,
+  "jev_profitability_demonstrated": false,
+  "key_present": true,
+  "limitations": [
+    "No Jev forecast has been calibrated on this market.",
+    "One API timing sample does not establish tail latency or forecasting quality.",
+    "The old live feed uses ticker/ask features; this probe cannot prove historical replication.",
+    "Prediction scores and relevance scores are not interchangeable."
+  ],
+  "live_call_completed": false,
+  "live_requested": true,
+  "model": "jev-1.13.0",
+  "provider_budget_usd": "0",
+  "status": "EXPLICIT_PROVIDER_BUDGET_REQUIRED"
+}

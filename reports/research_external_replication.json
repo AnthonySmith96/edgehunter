@@ -1,0 +1,228 @@
+{
+  "experiment": 3,
+  "status": "REPLICATION_NO_EDGE",
+  "financial_edge_proven": false,
+  "registered_at": "2026-09-18T02:12:48.773214+00:00",
+  "source": "https://arxiv.org/abs/2609.12878",
+  "dataset_sha256": "86011d49c07e633daedd5117b59b8be837cafe217685c8526ebcb612e3cbe5f7",
+  "observations": 217,
+  "rule": {
+    "threshold": "0.90",
+    "max_price": "0.98",
+    "categories": "frozenset({'politics', 'crypto'})",
+    "identifier": "external_flb_favorite90_crypto_politics"
+  },
+  "results": {
+    "optimistic": {
+      "hypothesis": "external_flb_favorite90_crypto_politics",
+      "initial_capital": "1000",
+      "final_capital": "990.348857266600",
+      "net_pnl": "-9.651142733400",
+      "return_on_initial_capital": "-0.0096511427334",
+      "return_on_turnover": "-0.4827709382153252632030952492",
+      "turnover": "19.991142733400",
+      "fees": "0.048832733400",
+      "trades": 2,
+      "wins": 1,
+      "max_locked": "19.991142733400",
+      "max_drawdown_settled_cost_basis": "9.994095820800",
+      "capital_days": 133.54886900590702,
+      "pnl_per_capital_day": -0.07226675003120482,
+      "ignored": {
+        "hypothesis_filter": 215
+      },
+      "cost_model": {
+        "fee_rate_estimate": "0.04",
+        "slippage_spread_latency_estimate_per_share": "0.005",
+        "historical_fees_verified": false,
+        "historical_orderbooks_available": false,
+        "fills_verified": false,
+        "minimum_shares_assumption": "5"
+      },
+      "bootstrap": {
+        "clusters": 1,
+        "ci95": null,
+        "positive_fraction": null,
+        "seed": 20260917
+      },
+      "trade_log": [
+        {
+          "event_id": "101762",
+          "market_id": "906891",
+          "decision_at": 1788739200,
+          "settlement_at": 1789623105,
+          "side": "NO",
+          "observed_price": "0.907",
+          "simulated_entry_price": "0.912",
+          "shares": "10.92",
+          "fees": "0.0350558208",
+          "cost": "9.9940958208",
+          "payout": "0.00",
+          "pnl": "-9.9940958208",
+          "cluster": "2026-09-07",
+          "availability_verified": false
+        },
+        {
+          "event_id": "91232",
+          "market_id": "706183",
+          "decision_at": 1788739200,
+          "settlement_at": 1789009759,
+          "side": "NO",
+          "observed_price": "0.9605",
+          "simulated_entry_price": "0.9655",
+          "shares": "10.34",
+          "fees": "0.013776912600",
+          "cost": "9.997046912600",
+          "payout": "10.34",
+          "pnl": "0.342953087400",
+          "cluster": "2026-09-07",
+          "availability_verified": false
+        }
+      ],
+      "classification": "EXPLORATORY_HISTORICAL_SIMULATION_NOT_EXECUTABLE_PROOF"
+    },
+    "base": {
+      "hypothesis": "external_flb_favorite90_crypto_politics",
+      "initial_capital": "1000",
+      "final_capital": "990.284625005100",
+      "net_pnl": "-9.715374994900",
+      "return_on_initial_capital": "-0.0097153749949",
+      "return_on_turnover": "-0.4858811098755584058996316833",
+      "turnover": "19.995374994900",
+      "fees": "0.078354994900",
+      "trades": 2,
+      "wins": 1,
+      "max_locked": "19.995374994900",
+      "max_drawdown_settled_cost_basis": "9.998033026800",
+      "capital_days": 133.59007208450026,
+      "pnl_per_capital_day": -0.07272527698581295,
+      "ignored": {
+        "hypothesis_filter": 215
+      },
+      "cost_model": {
+        "fee_rate_estimate": "0.07",
+        "slippage_spread_latency_estimate_per_share": "0.01",
+        "historical_fees_verified": false,
+        "historical_orderbooks_available": false,
+        "fills_verified": false,
+        "minimum_shares_assumption": "5"
+      },
+      "bootstrap": {
+        "clusters": 1,
+        "ci95": null,
+        "positive_fraction": null,
+        "seed": 20260917
+      },
+      "trade_log": [
+        {
+          "event_id": "101762",
+          "market_id": "906891",
+          "decision_at": 1788739200,
+          "settlement_at": 1789623105,
+          "side": "NO",
+          "observed_price": "0.907",
+          "simulated_entry_price": "0.917",
+          "shares": "10.84",
+          "fees": "0.0577530268",
+          "cost": "9.9980330268",
+          "payout": "0.00",
+          "pnl": "-9.9980330268",
+          "cluster": "2026-09-07",
+          "availability_verified": false
+        },
+        {
+          "event_id": "91232",
+          "market_id": "706183",
+          "decision_at": 1788739200,
+          "settlement_at": 1789009759,
+          "side": "NO",
+          "observed_price": "0.9605",
+          "simulated_entry_price": "0.9705",
+          "shares": "10.28",
+          "fees": "0.020601968100",
+          "cost": "9.997341968100",
+          "payout": "10.28",
+          "pnl": "0.282658031900",
+          "cluster": "2026-09-07",
+          "availability_verified": false
+        }
+      ],
+      "classification": "EXPLORATORY_HISTORICAL_SIMULATION_NOT_EXECUTABLE_PROOF"
+    },
+    "conservative": {
+      "hypothesis": "external_flb_favorite90_crypto_politics",
+      "initial_capital": "1000",
+      "final_capital": "990.091502112000",
+      "net_pnl": "-9.908497888000",
+      "return_on_initial_capital": "-0.009908497888",
+      "return_on_turnover": "-0.4957099799854655291444179180",
+      "turnover": "19.988497888000",
+      "fees": "0.072057888000",
+      "trades": 2,
+      "wins": 1,
+      "max_locked": "19.988497888000",
+      "max_drawdown_settled_cost_basis": "9.994772860000",
+      "capital_days": 133.5453929938536,
+      "pnl_per_capital_day": -0.07419572975052786,
+      "ignored": {
+        "hypothesis_filter": 215
+      },
+      "cost_model": {
+        "fee_rate_estimate": "0.10",
+        "slippage_spread_latency_estimate_per_share": "0.03",
+        "historical_fees_verified": false,
+        "historical_orderbooks_available": false,
+        "fills_verified": false,
+        "minimum_shares_assumption": "5"
+      },
+      "bootstrap": {
+        "clusters": 1,
+        "ci95": null,
+        "positive_fraction": null,
+        "seed": 20260917
+      },
+      "trade_log": [
+        {
+          "event_id": "101762",
+          "market_id": "906891",
+          "decision_at": 1788739200,
+          "settlement_at": 1789623105,
+          "side": "NO",
+          "observed_price": "0.907",
+          "simulated_entry_price": "0.937",
+          "shares": "10.60",
+          "fees": "0.0625728600",
+          "cost": "9.9947728600",
+          "payout": "0.00",
+          "pnl": "-9.9947728600",
+          "cluster": "2026-09-07",
+          "availability_verified": false
+        },
+        {
+          "event_id": "91232",
+          "market_id": "706183",
+          "decision_at": 1788739200,
+          "settlement_at": 1789009759,
+          "side": "NO",
+          "observed_price": "0.9605",
+          "simulated_entry_price": "0.9905",
+          "shares": "10.08",
+          "fees": "0.009485028000",
+          "cost": "9.993725028000",
+          "payout": "10.08",
+          "pnl": "0.086274972000",
+          "cluster": "2026-09-07",
+          "availability_verified": false
+        }
+      ],
+      "classification": "EXPLORATORY_HISTORICAL_SIMULATION_NOT_EXECUTABLE_PROOF"
+    }
+  },
+  "limitations": [
+    "Dataset existed and outcomes were inspected in a prior experiment; this is an external-rule replication, not an untouched holdout",
+    "Historical prices are not executable order books and availability is inferred",
+    "The source paper measures observed purchases across a much larger trade dataset; this replication samples one event observation 24 hours before end",
+    "Current category tags may differ from tags available at decision time",
+    "No model or cost scenario was selected from these replication results"
+  ]
+}

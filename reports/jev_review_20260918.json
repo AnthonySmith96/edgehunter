@@ -1,0 +1,596 @@
+{
+  "audit_schema": 1,
+  "created_at": "2026-09-18T22:57:08.900374+00:00",
+  "classification": "DESCRIPTIVE_PROSPECTIVE_AUDIT_NO_PARAMETER_SELECTION",
+  "provenance": {
+    "journal": "data\\btc_jev\\events.jsonl",
+    "journal_sha256": "911613a11b94fe353175453d1663f396844bf68334379b7e506941fde69fa248",
+    "journal_bytes": 82056,
+    "journal_events": 125,
+    "outcomes": "data\\btc_jev\\review_outcomes_20260918.json",
+    "outcomes_sha256": "b98e61b31705a86823250c2593cecf9df6b661764e6a3c9ce124eb9b168f6c26",
+    "outcomes_as_of": "2026-09-18T22:39:27.008767+00:00"
+  },
+  "event_counts": {
+    "OPPORTUNITY": 36,
+    "REJECTION": 1,
+    "JEV_DECISION": 33,
+    "PAPER_FILL": 20,
+    "ERROR": 2,
+    "SETTLEMENT": 20,
+    "NO_FILL": 13
+  },
+  "first_decision_at": "2026-09-18T19:12:45.437421+00:00",
+  "last_decision_at": "2026-09-18T22:02:23.276521+00:00",
+  "first_kelly_field_at": "2026-09-18T21:37:22.615487+00:00",
+  "all_decisions": {
+    "recorded": 33,
+    "invalid_timing_excluded": 0,
+    "invalid_usage_excluded": 0,
+    "invalid_forecasts_excluded": 0,
+    "nonbinary_outcomes_excluded": 0,
+    "unresolved": 0,
+    "resolved": 33,
+    "jev": {
+      "brier": 0.16953333333333334,
+      "log_loss": 0.5139287266810704,
+      "correct": 26,
+      "accuracy": 0.7878787878787878
+    },
+    "market": {
+      "brier": 0.13050224666666668,
+      "log_loss": 0.4126779429500724,
+      "correct": 26,
+      "accuracy": 0.7878787878787878
+    },
+    "direction_disagreements": [
+      "btc-updown-5m-1789760100",
+      "btc-updown-5m-1789761300"
+    ]
+  },
+  "settled_fills_only": {
+    "resolved": 20,
+    "jev": {
+      "brier": 0.22098500000000001,
+      "log_loss": 0.6672217684848002,
+      "correct": 15,
+      "accuracy": 0.75
+    },
+    "market": {
+      "brier": 0.1505834485,
+      "log_loss": 0.4698591120434694,
+      "correct": 15,
+      "accuracy": 0.75
+    },
+    "direction_disagreements": [
+      "btc-updown-5m-1789760100",
+      "btc-updown-5m-1789761300"
+    ]
+  },
+  "probability_up_histogram": {
+    "0.87": 1,
+    "0.02": 5,
+    "0.89": 1,
+    "0.01": 2,
+    "0.79": 1,
+    "0.92": 4,
+    "0.66": 1,
+    "0.58": 1,
+    "0.91": 4,
+    "0.03": 4,
+    "0.93": 3,
+    "0.06": 1,
+    "0.13": 1,
+    "0.64": 1,
+    "0.9": 2,
+    "0.53": 1
+  },
+  "direction_confidence_bins": [
+    {
+      "lower_inclusive": 0.5,
+      "upper_exclusive": 0.7,
+      "includes_probability_one": false,
+      "count": 4,
+      "mean_confidence": 0.6025,
+      "actual_accuracy": 0.75
+    },
+    {
+      "lower_inclusive": 0.7,
+      "upper_exclusive": 0.9,
+      "includes_probability_one": false,
+      "count": 4,
+      "mean_confidence": 0.855,
+      "actual_accuracy": 0.5
+    },
+    {
+      "lower_inclusive": 0.9,
+      "upper_exclusive": 1.0,
+      "includes_probability_one": true,
+      "count": 25,
+      "mean_confidence": 0.9444,
+      "actual_accuracy": 0.84
+    }
+  ],
+  "financial": {
+    "initial_capital_sim_usd_assumed": "100",
+    "settled_trades": 20,
+    "open_fills": 0,
+    "wins": 12,
+    "losses": 8,
+    "void_or_nonbinary_settlements": 0,
+    "win_rate": 0.6,
+    "realized_pnl_sim_usd": "-35.6451",
+    "realized_equity_sim_usd": "64.3549",
+    "gross_winning_pnl_sim_usd": "37.0641",
+    "gross_losing_pnl_sim_usd": "-72.7092",
+    "turnover_sim_usd": "190.0140",
+    "mean_probability_bought": 0.8155,
+    "mean_break_even_probability": 0.6610957916269024,
+    "realized_equity_peak_sim_usd": "104.3667",
+    "maximum_realized_equity_drawdown_fraction": 0.40919086260272675
+  },
+  "inferred_sizing_cohorts": {
+    "kelly_field_absent": {
+      "trades": 18,
+      "wins": 11,
+      "pnl_sim_usd": "-35.6293"
+    },
+    "kelly_field_present": {
+      "trades": 2,
+      "wins": 1,
+      "pnl_sim_usd": "-0.0158"
+    }
+  },
+  "trades": [
+    {
+      "slug": "btc-updown-5m-1789758600",
+      "side": "DOWN",
+      "won": false,
+      "binary_payoff": 0,
+      "cost_sim_usd": "9.9999",
+      "pnl_sim_usd": "-9.9999",
+      "settled_at": "2026-09-18T19:21:11.717703+00:00",
+      "probability_bought": 0.13,
+      "break_even_probability": 0.054749452747741276,
+      "has_kelly_field": false
+    },
+    {
+      "slug": "btc-updown-5m-1789760100",
+      "side": "UP",
+      "won": false,
+      "binary_payoff": 0,
+      "cost_sim_usd": "9.9999",
+      "pnl_sim_usd": "-9.9999",
+      "settled_at": "2026-09-18T19:43:42.507350+00:00",
+      "probability_bought": 0.79,
+      "break_even_probability": 0.5449545694080153,
+      "has_kelly_field": false
+    },
+    {
+      "slug": "btc-updown-5m-1789761000",
+      "side": "DOWN",
+      "won": true,
+      "binary_payoff": 1,
+      "cost_sim_usd": "9.9999",
+      "pnl_sim_usd": "2.2550",
+      "settled_at": "2026-09-18T20:01:42.336561+00:00",
+      "probability_bought": 0.98,
+      "break_even_probability": 0.8159919039737653,
+      "has_kelly_field": false
+    },
+    {
+      "slug": "btc-updown-5m-1789761300",
+      "side": "UP",
+      "won": true,
+      "binary_payoff": 1,
+      "cost_sim_usd": "9.9999",
+      "pnl_sim_usd": "9.0477",
+      "settled_at": "2026-09-18T20:05:27.956794+00:00",
+      "probability_bought": 0.66,
+      "break_even_probability": 0.5249947513124869,
+      "has_kelly_field": false
+    },
+    {
+      "slug": "btc-updown-5m-1789762200",
+      "side": "UP",
+      "won": true,
+      "binary_payoff": 1,
+      "cost_sim_usd": "9.9999",
+      "pnl_sim_usd": "2.3979",
+      "settled_at": "2026-09-18T20:21:04.443987+00:00",
+      "probability_bought": 0.91,
+      "break_even_probability": 0.8065819682603595,
+      "has_kelly_field": false
+    },
+    {
+      "slug": "btc-updown-5m-1789762500",
+      "side": "UP",
+      "won": true,
+      "binary_payoff": 1,
+      "cost_sim_usd": "9.9999",
+      "pnl_sim_usd": "1.8468",
+      "settled_at": "2026-09-18T20:26:12.751585+00:00",
+      "probability_bought": 0.91,
+      "break_even_probability": 0.8441015744593243,
+      "has_kelly_field": false
+    },
+    {
+      "slug": "btc-updown-5m-1789762800",
+      "side": "DOWN",
+      "won": true,
+      "binary_payoff": 1,
+      "cost_sim_usd": "9.9999",
+      "pnl_sim_usd": "2.2550",
+      "settled_at": "2026-09-18T20:31:53.459870+00:00",
+      "probability_bought": 0.97,
+      "break_even_probability": 0.8159919039737653,
+      "has_kelly_field": false
+    },
+    {
+      "slug": "btc-updown-5m-1789763400",
+      "side": "UP",
+      "won": true,
+      "binary_payoff": 1,
+      "cost_sim_usd": "9.9999",
+      "pnl_sim_usd": "2.1155",
+      "settled_at": "2026-09-18T20:42:18.601693+00:00",
+      "probability_bought": 0.93,
+      "break_even_probability": 0.8253818006775462,
+      "has_kelly_field": false
+    },
+    {
+      "slug": "btc-updown-5m-1789763700",
+      "side": "DOWN",
+      "won": true,
+      "binary_payoff": 1,
+      "cost_sim_usd": "9.9999",
+      "pnl_sim_usd": "4.4486",
+      "settled_at": "2026-09-18T20:47:10.794219+00:00",
+      "probability_bought": 0.94,
+      "break_even_probability": 0.6921030939394003,
+      "has_kelly_field": false
+    },
+    {
+      "slug": "btc-updown-5m-1789764000",
+      "side": "DOWN",
+      "won": false,
+      "binary_payoff": 0,
+      "cost_sim_usd": "9.9999",
+      "pnl_sim_usd": "-9.9999",
+      "settled_at": "2026-09-18T20:51:27.874108+00:00",
+      "probability_bought": 0.87,
+      "break_even_probability": 0.6337836960809466,
+      "has_kelly_field": false
+    },
+    {
+      "slug": "btc-updown-5m-1789764300",
+      "side": "UP",
+      "won": false,
+      "binary_payoff": 0,
+      "cost_sim_usd": "9.9999",
+      "pnl_sim_usd": "-9.9999",
+      "settled_at": "2026-09-18T20:57:22.202952+00:00",
+      "probability_bought": 0.93,
+      "break_even_probability": 0.7877021450998095,
+      "has_kelly_field": false
+    },
+    {
+      "slug": "btc-updown-5m-1789764600",
+      "side": "UP",
+      "won": false,
+      "binary_payoff": 0,
+      "cost_sim_usd": "9.9999",
+      "pnl_sim_usd": "-9.9999",
+      "settled_at": "2026-09-18T21:01:57.096774+00:00",
+      "probability_bought": 0.91,
+      "break_even_probability": 0.6921030939394003,
+      "has_kelly_field": false
+    },
+    {
+      "slug": "btc-updown-5m-1789765200",
+      "side": "UP",
+      "won": true,
+      "binary_payoff": 1,
+      "cost_sim_usd": "9.9999",
+      "pnl_sim_usd": "2.1155",
+      "settled_at": "2026-09-18T21:10:51.202219+00:00",
+      "probability_bought": 0.92,
+      "break_even_probability": 0.8253818006775462,
+      "has_kelly_field": false
+    },
+    {
+      "slug": "btc-updown-5m-1789765500",
+      "side": "UP",
+      "won": true,
+      "binary_payoff": 1,
+      "cost_sim_usd": "9.9999",
+      "pnl_sim_usd": "2.3979",
+      "settled_at": "2026-09-18T21:16:14.125019+00:00",
+      "probability_bought": 0.93,
+      "break_even_probability": 0.8065819682603595,
+      "has_kelly_field": false
+    },
+    {
+      "slug": "btc-updown-5m-1789765800",
+      "side": "UP",
+      "won": true,
+      "binary_payoff": 1,
+      "cost_sim_usd": "9.9999",
+      "pnl_sim_usd": "3.5106",
+      "settled_at": "2026-09-18T21:21:36.672678+00:00",
+      "probability_bought": 0.91,
+      "break_even_probability": 0.7401526150741581,
+      "has_kelly_field": false
+    },
+    {
+      "slug": "btc-updown-5m-1789766400",
+      "side": "DOWN",
+      "won": false,
+      "binary_payoff": 0,
+      "cost_sim_usd": "9.9999",
+      "pnl_sim_usd": "-9.9999",
+      "settled_at": "2026-09-18T21:30:27.423080+00:00",
+      "probability_bought": 0.36,
+      "break_even_probability": 0.27923721013770775,
+      "has_kelly_field": false
+    },
+    {
+      "slug": "btc-updown-5m-1789766700",
+      "side": "UP",
+      "won": false,
+      "binary_payoff": 0,
+      "cost_sim_usd": "9.9999",
+      "pnl_sim_usd": "-9.9999",
+      "settled_at": "2026-09-18T21:35:58.807596+00:00",
+      "probability_bought": 0.9,
+      "break_even_probability": 0.6043539666474259,
+      "has_kelly_field": false
+    },
+    {
+      "slug": "btc-updown-5m-1789767000",
+      "side": "DOWN",
+      "won": true,
+      "binary_payoff": 1,
+      "cost_sim_usd": "9.9999",
+      "pnl_sim_usd": "1.9795",
+      "settled_at": "2026-09-18T21:41:37.327157+00:00",
+      "probability_bought": 0.97,
+      "break_even_probability": 0.8347516601498344,
+      "has_kelly_field": false
+    },
+    {
+      "slug": "btc-updown-5m-1789768200",
+      "side": "DOWN",
+      "won": false,
+      "binary_payoff": 0,
+      "cost_sim_usd": "2.7099",
+      "pnl_sim_usd": "-2.7099",
+      "settled_at": "2026-09-18T21:57:55.312841+00:00",
+      "probability_bought": 0.47,
+      "break_even_probability": 0.3624266577184547,
+      "has_kelly_field": true
+    },
+    {
+      "slug": "btc-updown-5m-1789768500",
+      "side": "UP",
+      "won": true,
+      "binary_payoff": 1,
+      "cost_sim_usd": "7.3059",
+      "pnl_sim_usd": "2.6941",
+      "settled_at": "2026-09-18T22:04:06.492530+00:00",
+      "probability_bought": 0.92,
+      "break_even_probability": 0.73059,
+      "has_kelly_field": true
+    }
+  ],
+  "paired_predictions": [
+    {
+      "slug": "btc-updown-5m-1789758600",
+      "y": 1,
+      "jev": 0.87,
+      "market": 0.9802
+    },
+    {
+      "slug": "btc-updown-5m-1789759200",
+      "y": 0,
+      "jev": 0.02,
+      "market": 0.0792
+    },
+    {
+      "slug": "btc-updown-5m-1789759500",
+      "y": 1,
+      "jev": 0.89,
+      "market": 0.9604
+    },
+    {
+      "slug": "btc-updown-5m-1789759800",
+      "y": 0,
+      "jev": 0.01,
+      "market": 0.0693
+    },
+    {
+      "slug": "btc-updown-5m-1789760100",
+      "y": 0,
+      "jev": 0.79,
+      "market": 0.4851
+    },
+    {
+      "slug": "btc-updown-5m-1789760700",
+      "y": 1,
+      "jev": 0.92,
+      "market": 0.8713
+    },
+    {
+      "slug": "btc-updown-5m-1789761000",
+      "y": 0,
+      "jev": 0.02,
+      "market": 0.2376
+    },
+    {
+      "slug": "btc-updown-5m-1789761300",
+      "y": 1,
+      "jev": 0.66,
+      "market": 0.4608
+    },
+    {
+      "slug": "btc-updown-5m-1789761600",
+      "y": 0,
+      "jev": 0.02,
+      "market": 0.0495
+    },
+    {
+      "slug": "btc-updown-5m-1789761900",
+      "y": 0,
+      "jev": 0.58,
+      "market": 0.604
+    },
+    {
+      "slug": "btc-updown-5m-1789762200",
+      "y": 1,
+      "jev": 0.91,
+      "market": 0.7525
+    },
+    {
+      "slug": "btc-updown-5m-1789762500",
+      "y": 1,
+      "jev": 0.91,
+      "market": 0.7843
+    },
+    {
+      "slug": "btc-updown-5m-1789762800",
+      "y": 0,
+      "jev": 0.03,
+      "market": 0.2376
+    },
+    {
+      "slug": "btc-updown-5m-1789763100",
+      "y": 0,
+      "jev": 0.02,
+      "market": 0.1287
+    },
+    {
+      "slug": "btc-updown-5m-1789763400",
+      "y": 1,
+      "jev": 0.93,
+      "market": 0.7723
+    },
+    {
+      "slug": "btc-updown-5m-1789763700",
+      "y": 0,
+      "jev": 0.06,
+      "market": 0.3663
+    },
+    {
+      "slug": "btc-updown-5m-1789764000",
+      "y": 1,
+      "jev": 0.13,
+      "market": 0.4257
+    },
+    {
+      "slug": "btc-updown-5m-1789764300",
+      "y": 0,
+      "jev": 0.93,
+      "market": 0.7327
+    },
+    {
+      "slug": "btc-updown-5m-1789764600",
+      "y": 0,
+      "jev": 0.91,
+      "market": 0.6337
+    },
+    {
+      "slug": "btc-updown-5m-1789764900",
+      "y": 0,
+      "jev": 0.03,
+      "market": 0.1683
+    },
+    {
+      "slug": "btc-updown-5m-1789765200",
+      "y": 1,
+      "jev": 0.92,
+      "market": 0.7723
+    },
+    {
+      "slug": "btc-updown-5m-1789765500",
+      "y": 1,
+      "jev": 0.93,
+      "market": 0.7525
+    },
+    {
+      "slug": "btc-updown-5m-1789765800",
+      "y": 1,
+      "jev": 0.91,
+      "market": 0.6832
+    },
+    {
+      "slug": "btc-updown-5m-1789766100",
+      "y": 0,
+      "jev": 0.01,
+      "market": 0.099
+    },
+    {
+      "slug": "btc-updown-5m-1789766400",
+      "y": 1,
+      "jev": 0.64,
+      "market": 0.7723
+    },
+    {
+      "slug": "btc-updown-5m-1789766700",
+      "y": 0,
+      "jev": 0.9,
+      "market": 0.5446
+    },
+    {
+      "slug": "btc-updown-5m-1789767000",
+      "y": 0,
+      "jev": 0.03,
+      "market": 0.2178
+    },
+    {
+      "slug": "btc-updown-5m-1789767300",
+      "y": 1,
+      "jev": 0.92,
+      "market": 0.8515
+    },
+    {
+      "slug": "btc-updown-5m-1789767600",
+      "y": 0,
+      "jev": 0.9,
+      "market": 0.8515
+    },
+    {
+      "slug": "btc-updown-5m-1789767900",
+      "y": 0,
+      "jev": 0.02,
+      "market": 0.0495
+    },
+    {
+      "slug": "btc-updown-5m-1789768200",
+      "y": 1,
+      "jev": 0.53,
+      "market": 0.6931
+    },
+    {
+      "slug": "btc-updown-5m-1789768500",
+      "y": 1,
+      "jev": 0.92,
+      "market": 0.6733
+    },
+    {
+      "slug": "btc-updown-5m-1789768800",
+      "y": 0,
+      "jev": 0.03,
+      "market": 0.3069
+    }
+  ],
+  "limitations": [
+    "A single short session is not evidence of repeatable financial edge.",
+    "All-decisions calibration uses only matched resolved labels; missing outcomes are not filled.",
+    "Fill-only calibration is selected by the strategy and must not represent all forecasts.",
+    "Market probabilities are recorded rounded normalized asks, not executable returns.",
+    "Kelly field cohorts are inferred schema changes, not proof of frozen policy versions.",
+    "Initial capital is assumed 100 SIM_USD; drawdown uses realized settlements only.",
+    "Historical fill accounting is preserved; liquidity, timing, and fee realism are not validated here."
+  ],
+  "financial_edge_proven": false
+}

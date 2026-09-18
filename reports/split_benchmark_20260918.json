@@ -1,0 +1,22 @@
+{
+  "full_optimized_split_seconds": 0.125218500000301,
+  "full_rows": 183691,
+  "input_sha256": "81865aa923fbf14e330eeb29001ae081fbc4a0389849bab082ea931e563c589f",
+  "real_outcome_labels_used": false,
+  "sample_legacy_purge_matches_optimized": true,
+  "sample_legacy_purge_recount_seconds": 1.830352899999525,
+  "sample_optimized_split_seconds": 0.010151099999347934,
+  "sample_rows": 18000,
+  "sample_speedup_lower_bound": 180.31079391564455,
+  "schema": "edgehunter.split_benchmark.v1",
+  "speedup_note": "Old purge recount alone divided by entire optimized split; same sample",
+  "split": {
+    "purged_rows_for_embargo": 288,
+    "test_rows": 5028,
+    "train_end_epoch": 1784667300,
+    "train_rows": 133466,
+    "validation_end_epoch": 1789188300,
+    "validation_rows": 44909
+  },
+  "strategy_evaluated": false
+}

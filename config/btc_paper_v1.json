@@ -1,0 +1,37 @@
+{
+  "experiment": "btc_5m_external_lag_v1",
+  "registered_at": "2026-09-18T02:23:03.9579453Z",
+  "mode": "PAPER_ONLY",
+  "market": "Polymarket BTC Up or Down 5m",
+  "reference": "Coinbase BTC-USD public ticker and one-minute candles",
+  "settlement": "official Polymarket terminal metadata only",
+  "parameters": {
+    "betas": [0.83, 1.36],
+    "tail_weight": 0.25,
+    "tail_scale": 2.5,
+    "volatility_minutes": 120,
+    "volatility_floor_per_second": 0.000001,
+    "min_ask": 0.50,
+    "max_ask": 0.80,
+    "min_edge": 0.10,
+    "max_edge": 0.20,
+    "fee_curve_sensitivity": 0.10,
+    "adverse_ticks": 1,
+    "latency_ms": 450,
+    "limit_slack_ticks": 2,
+    "close_buffer_seconds": 20,
+    "maximum_stake_sim_usd": 10,
+    "maximum_attempts_per_market": 1
+  },
+  "success_gate": {
+    "minimum_settled_fills": 100,
+    "minimum_calendar_days": 7,
+    "net_pnl_sim_usd": "> 0",
+    "bootstrap_95_percent_lower_bound": "> 0"
+  },
+  "limitations": [
+    "Coinbase is a proxy signal; the contract settles from Chainlink BTC/USD TWAP",
+    "The fee curve is a conservative sensitivity assumption, not a claim about charged fees",
+    "A positive early balance is reported separately and does not satisfy the success gate"
+  ]
+}

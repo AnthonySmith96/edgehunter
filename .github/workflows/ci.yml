@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install locked environment
+        shell: pwsh
+        run: |
+          python -m pip install uv==0.8.22
+          uv sync --frozen --extra dev --native-tls
+      - name: Public release check
+        run: uv run python scripts/check_public_release.py
+      - name: Install verified PocketBase binary
+        run: uv run python scripts/pocketbase_setup.py
+      - name: Tests
+        run: uv run python -m pytest -q
+      - name: Types
+        run: uv run python -m mypy src
+      - name: Style
+        run: uv run ruff check src tests scripts deploy

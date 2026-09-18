@@ -1,0 +1,70 @@
+{
+  "as_of": "2026-09-18T01:52:21.782094+00:00",
+  "live_eligible": false,
+  "sources": {
+    "polymarket_catalog": {
+      "status": "HEALTHY",
+      "records": 3
+    },
+    "polymarket_clock": {
+      "roundtrip_seconds": 0.2699739933013916,
+      "skew_seconds": -20.92173480987549,
+      "status": "CLOCK_SKEW"
+    },
+    "polymarket_geoblock": {
+      "blocked": false,
+      "country": "MX",
+      "region": "GUA",
+      "eligibility": "NOT_LEGAL_OR_IDENTITY_VERIFICATION"
+    },
+    "coinbase": {
+      "status": "HEALTHY",
+      "event": {
+        "event_id": "0cba65e46f00685c7ee99a1a41b239db76200db7c58c9eb72504682c8c87507e",
+        "source_id": "coinbase",
+        "source_record_id": "BTC-USD",
+        "source_url": "https://api.exchange.coinbase.com/products/BTC-USD/ticker",
+        "content_hash": "6ea678d3932a8293e6338196677c9c1c6a13e7f4344ac8f5b07abc536e3ee37a",
+        "event_time": "2026-09-18T01:52:00.427124780Z",
+        "source_publish_time": null,
+        "first_seen_at": "2026-09-18T01:52:22.197557+00:00",
+        "ingested_at": "2026-09-18T01:52:22.197557+00:00",
+        "processed_at": "2026-09-18T01:52:22.197557+00:00",
+        "available_at": "2026-09-18T01:52:22.197557+00:00",
+        "payload": {
+          "ask": "76652.78",
+          "bid": "76652.77",
+          "volume": "5140.53860899",
+          "trade_id": 1094406627,
+          "price": "76652.78",
+          "size": "0.00022653",
+          "time": "2026-09-18T01:52:00.427124780Z",
+          "rfq_volume": "97.562451"
+        },
+        "temporal_quality": "OBSERVED_NOW",
+        "schema_version": 1,
+        "provider_version": "public-rest-observed"
+      }
+    },
+    "federal_reserve": {
+      "status": "HEALTHY",
+      "records": 19
+    },
+    "alphavantage": {
+      "status": "ACCESS_BLOCKED",
+      "reason": "No project key or data entitlement"
+    },
+    "weathernext": {
+      "status": "ACCESS_BLOCKED",
+      "reason": "No approved account or byte budget"
+    },
+    "jev": {
+      "status": "ACCESS_BLOCKED",
+      "reason": "No project key or spending budget"
+    },
+    "social_derivatives": {
+      "status": "ACCESS_BLOCKED",
+      "reason": "No licensed provider"
+    }
+  }
+}

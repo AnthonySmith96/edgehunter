@@ -1,0 +1,13 @@
+{
+  "version": "0.40.4",
+  "verified_at": "2026-09-17",
+  "source": "https://github.com/pocketbase/pocketbase/releases/tag/v0.40.4",
+  "sha256": {
+    "windows_amd64": "81c30964508fa7df15fe4571a6ee39e059859c566dad03ebf181aebe07366c3e",
+    "windows_arm64": "4f11d998a0c36677a6698841bb85ea414d4a57c394fe55f1a8449fd4a089f1ae",
+    "linux_amd64": "9042ec818570e79c3628dadcd0a756c1496d9e1173918ec409d133c02f82e5fa",
+    "linux_arm64": "86095bf8ed9345954f0d2bf0a5fb9b57584ae60b77ebf3b6cd23a8003a3fd418",
+    "darwin_amd64": "052906521f09f6f23405cd804c930d2b7a1f8eee06d39b85723b5054b2acb4e4",
+    "darwin_arm64": "eeb619ea4f8a06421daedb946d133bed269fea334a760941d147f76befc25ebc"
+  }
+}

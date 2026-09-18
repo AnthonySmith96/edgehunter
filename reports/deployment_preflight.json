@@ -1,0 +1,20 @@
+{
+  "status": "DRY_RUN",
+  "host_modified": false,
+  "live_disabled": true,
+  "output": null,
+  "files": {
+    "edgehunter-pocketbase.service": "082694c08d69aa72378b208183e173808622263d1a0b35f8b240536ff22330de",
+    "edgehunter-daemon.service": "ca2756f8df22e7f986a79952faaa9be87093f82507fdceae6bc0275ed1822ebd",
+    "nginx-vpn.conf": "664c18833a21c64c59f8bb68e2b22e722780706f2b5f7ead4c7730dea48f3444"
+  },
+  "pending": [
+    "authorized host preflight",
+    "accounts and credential separation",
+    "nginx -t",
+    "systemd-analyze verify",
+    "TLS/VPN or MFA",
+    "external backup",
+    "remote device tests"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "mode": "PAPER",
+  "paper_trading_enabled": true,
+  "live_trading_enabled": false,
+  "live_capability": false,
+  "currency": "SIM_USD",
+  "initial_cash": "1000.00",
+  "max_loss_per_idea": "10.00",
+  "max_loss_per_cluster": "30.00",
+  "max_total_exposure": "100.00",
+  "cumulative_realized_loss_limit": "20.00",
+  "drawdown_limit": "50.00",
+  "incremental_provider_budget": "0.00",
+  "book_ttl_seconds": 8,
+  "poll_seconds": 30,
+  "market_limit": 12,
+  "control_lease_seconds": 60,
+  "timezone": "America/Mexico_City"
+}

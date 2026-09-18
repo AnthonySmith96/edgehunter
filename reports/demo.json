@@ -1,0 +1,393 @@
+{
+  "run_id": "20260918T014803-8550e8",
+  "data_kind": "SYNTHETIC_ENGINEERING_FIXTURE",
+  "financial_validation": "NOT_REAL_MARKET_PROFITABILITY",
+  "mode": "REPLAY",
+  "real_money_enabled": false,
+  "report": {
+    "collateral": "SIM_USD",
+    "cash": "1001.207200",
+    "reserved": "0.000000",
+    "inventory_cost": "0.000000",
+    "deposits": "1000",
+    "fees": "0.992800",
+    "realized_pnl_before_fees": "2.400000",
+    "net_trading_pnl": "1.407200",
+    "operating_cost": "0.200",
+    "net_business_pnl": "1.207200",
+    "realized_high_water": "3.731300",
+    "business_high_water": "3.581300",
+    "positions": [],
+    "control": {
+      "halted": "false",
+      "halt_reason": "",
+      "paused": "false",
+      "collateral": "SIM_USD",
+      "lease_expires_at": "2026-09-18T23:49:04.066324+00:00",
+      "realized_high_water": "3.731300",
+      "business_high_water": "3.581300"
+    },
+    "ledger_valid": true
+  },
+  "proposals": 8,
+  "rejections": 4,
+  "fills": 16,
+  "decisions": [
+    {
+      "strategy": "structural",
+      "action": "ABSTAIN",
+      "reason": "NO_NET_EDGE_OR_CAPACITY",
+      "expected_edge": null,
+      "max_size": "0",
+      "execution": "UNAVAILABLE",
+      "evidence_ids": [],
+      "estimates": {
+        "calculated_edge": "-0.109950"
+      },
+      "legs": [],
+      "expires_at": null,
+      "version": "1.0.0"
+    },
+    {
+      "strategy": "structural",
+      "action": "PROPOSE",
+      "reason": "RISK_REVIEW_REQUIRED",
+      "expected_edge": "0.010250",
+      "max_size": "20",
+      "execution": "AUTO",
+      "evidence_ids": [
+        "synthetic-fixture-1"
+      ],
+      "estimates": {
+        "classification": "STRUCTURAL_NONATOMIC",
+        "guaranteed_payout": "1",
+        "partial_leg_loss_bound": "0.40",
+        "residual_risks": [
+          "venue",
+          "collateral",
+          "settlement",
+          "contract"
+        ]
+      },
+      "legs": [
+        {
+          "token": "demo-1-0",
+          "side": "BUY",
+          "limit_price": "0.43"
+        },
+        {
+          "token": "demo-1-1",
+          "side": "BUY",
+          "limit_price": "0.49"
+        }
+      ],
+      "expires_at": 1789703344,
+      "version": "1.0.0"
+    },
+    {
+      "strategy": "structural",
+      "action": "PROPOSE",
+      "reason": "RISK_REVIEW_REQUIRED",
+      "expected_edge": "0.010250",
+      "max_size": "20",
+      "execution": "AUTO",
+      "evidence_ids": [
+        "synthetic-fixture-2"
+      ],
+      "estimates": {
+        "classification": "STRUCTURAL_NONATOMIC",
+        "guaranteed_payout": "1",
+        "partial_leg_loss_bound": "0.40",
+        "residual_risks": [
+          "venue",
+          "collateral",
+          "settlement",
+          "contract"
+        ]
+      },
+      "legs": [
+        {
+          "token": "demo-2-0",
+          "side": "BUY",
+          "limit_price": "0.43"
+        },
+        {
+          "token": "demo-2-1",
+          "side": "BUY",
+          "limit_price": "0.49"
+        }
+      ],
+      "expires_at": 1789710544,
+      "version": "1.0.0"
+    },
+    {
+      "strategy": "structural",
+      "action": "ABSTAIN",
+      "reason": "NO_NET_EDGE_OR_CAPACITY",
+      "expected_edge": null,
+      "max_size": "0",
+      "execution": "UNAVAILABLE",
+      "evidence_ids": [],
+      "estimates": {
+        "calculated_edge": "-0.109950"
+      },
+      "legs": [],
+      "expires_at": null,
+      "version": "1.0.0"
+    },
+    {
+      "strategy": "structural",
+      "action": "PROPOSE",
+      "reason": "RISK_REVIEW_REQUIRED",
+      "expected_edge": "0.010250",
+      "max_size": "20",
+      "execution": "AUTO",
+      "evidence_ids": [
+        "synthetic-fixture-4"
+      ],
+      "estimates": {
+        "classification": "STRUCTURAL_NONATOMIC",
+        "guaranteed_payout": "1",
+        "partial_leg_loss_bound": "0.40",
+        "residual_risks": [
+          "venue",
+          "collateral",
+          "settlement",
+          "contract"
+        ]
+      },
+      "legs": [
+        {
+          "token": "demo-4-0",
+          "side": "BUY",
+          "limit_price": "0.43"
+        },
+        {
+          "token": "demo-4-1",
+          "side": "BUY",
+          "limit_price": "0.49"
+        }
+      ],
+      "expires_at": 1789724944,
+      "version": "1.0.0"
+    },
+    {
+      "strategy": "structural",
+      "action": "PROPOSE",
+      "reason": "RISK_REVIEW_REQUIRED",
+      "expected_edge": "0.010250",
+      "max_size": "20",
+      "execution": "AUTO",
+      "evidence_ids": [
+        "synthetic-fixture-5"
+      ],
+      "estimates": {
+        "classification": "STRUCTURAL_NONATOMIC",
+        "guaranteed_payout": "1",
+        "partial_leg_loss_bound": "0.40",
+        "residual_risks": [
+          "venue",
+          "collateral",
+          "settlement",
+          "contract"
+        ]
+      },
+      "legs": [
+        {
+          "token": "demo-5-0",
+          "side": "BUY",
+          "limit_price": "0.43"
+        },
+        {
+          "token": "demo-5-1",
+          "side": "BUY",
+          "limit_price": "0.49"
+        }
+      ],
+      "expires_at": 1789732144,
+      "version": "1.0.0"
+    },
+    {
+      "strategy": "structural",
+      "action": "ABSTAIN",
+      "reason": "NO_NET_EDGE_OR_CAPACITY",
+      "expected_edge": null,
+      "max_size": "0",
+      "execution": "UNAVAILABLE",
+      "evidence_ids": [],
+      "estimates": {
+        "calculated_edge": "-0.109950"
+      },
+      "legs": [],
+      "expires_at": null,
+      "version": "1.0.0"
+    },
+    {
+      "strategy": "structural",
+      "action": "PROPOSE",
+      "reason": "RISK_REVIEW_REQUIRED",
+      "expected_edge": "0.010250",
+      "max_size": "20",
+      "execution": "AUTO",
+      "evidence_ids": [
+        "synthetic-fixture-7"
+      ],
+      "estimates": {
+        "classification": "STRUCTURAL_NONATOMIC",
+        "guaranteed_payout": "1",
+        "partial_leg_loss_bound": "0.40",
+        "residual_risks": [
+          "venue",
+          "collateral",
+          "settlement",
+          "contract"
+        ]
+      },
+      "legs": [
+        {
+          "token": "demo-7-0",
+          "side": "BUY",
+          "limit_price": "0.43"
+        },
+        {
+          "token": "demo-7-1",
+          "side": "BUY",
+          "limit_price": "0.49"
+        }
+      ],
+      "expires_at": 1789746544,
+      "version": "1.0.0"
+    },
+    {
+      "strategy": "structural",
+      "action": "PROPOSE",
+      "reason": "RISK_REVIEW_REQUIRED",
+      "expected_edge": "0.010250",
+      "max_size": "20",
+      "execution": "AUTO",
+      "evidence_ids": [
+        "synthetic-fixture-8"
+      ],
+      "estimates": {
+        "classification": "STRUCTURAL_NONATOMIC",
+        "guaranteed_payout": "1",
+        "partial_leg_loss_bound": "0.40",
+        "residual_risks": [
+          "venue",
+          "collateral",
+          "settlement",
+          "contract"
+        ]
+      },
+      "legs": [
+        {
+          "token": "demo-8-0",
+          "side": "BUY",
+          "limit_price": "0.43"
+        },
+        {
+          "token": "demo-8-1",
+          "side": "BUY",
+          "limit_price": "0.49"
+        }
+      ],
+      "expires_at": 1789753744,
+      "version": "1.0.0"
+    },
+    {
+      "strategy": "structural",
+      "action": "ABSTAIN",
+      "reason": "NO_NET_EDGE_OR_CAPACITY",
+      "expected_edge": null,
+      "max_size": "0",
+      "execution": "UNAVAILABLE",
+      "evidence_ids": [],
+      "estimates": {
+        "calculated_edge": "-0.109950"
+      },
+      "legs": [],
+      "expires_at": null,
+      "version": "1.0.0"
+    },
+    {
+      "strategy": "structural",
+      "action": "PROPOSE",
+      "reason": "RISK_REVIEW_REQUIRED",
+      "expected_edge": "0.010250",
+      "max_size": "20",
+      "execution": "AUTO",
+      "evidence_ids": [
+        "synthetic-fixture-10"
+      ],
+      "estimates": {
+        "classification": "STRUCTURAL_NONATOMIC",
+        "guaranteed_payout": "1",
+        "partial_leg_loss_bound": "0.40",
+        "residual_risks": [
+          "venue",
+          "collateral",
+          "settlement",
+          "contract"
+        ]
+      },
+      "legs": [
+        {
+          "token": "demo-10-0",
+          "side": "BUY",
+          "limit_price": "0.43"
+        },
+        {
+          "token": "demo-10-1",
+          "side": "BUY",
+          "limit_price": "0.49"
+        }
+      ],
+      "expires_at": 1789768144,
+      "version": "1.0.0"
+    },
+    {
+      "strategy": "structural",
+      "action": "PROPOSE",
+      "reason": "RISK_REVIEW_REQUIRED",
+      "expected_edge": "0.010250",
+      "max_size": "20",
+      "execution": "AUTO",
+      "evidence_ids": [
+        "synthetic-fixture-11"
+      ],
+      "estimates": {
+        "classification": "STRUCTURAL_NONATOMIC",
+        "guaranteed_payout": "1",
+        "partial_leg_loss_bound": "0.40",
+        "residual_risks": [
+          "venue",
+          "collateral",
+          "settlement",
+          "contract"
+        ]
+      },
+      "legs": [
+        {
+          "token": "demo-11-0",
+          "side": "BUY",
+          "limit_price": "0.43"
+        },
+        {
+          "token": "demo-11-1",
+          "side": "BUY",
+          "limit_price": "0.49"
+        }
+      ],
+      "expires_at": 1789775344,
+      "version": "1.0.0"
+    }
+  ],
+  "pocketbase_verified": true,
+  "directory": ".local/demo/20260918T014803-8550e8",
+  "notification_sink": {
+    "delivered": 1,
+    "sent": 0,
+    "failed": 0,
+    "unknown": 0
+  }
+}

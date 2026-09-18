@@ -1,0 +1,33 @@
+{
+  "as_of": "2026-09-18T13:57:53.861540+00:00",
+  "bootstrap_day_pnl_ci95": null,
+  "calibration": {
+    "brier_score": null,
+    "log_loss": null,
+    "resolved_predictions": 0,
+    "scope": "ALL_RECORDED_PREDICTIONS_INCLUDING_ABSTENTIONS"
+  },
+  "cash_sim_usd": "100",
+  "classification": "NEW_PROSPECTIVE_BOOK_EXECUTION_NOT_HISTORICAL_REPLICATION",
+  "config_sha256": "6600c461c706d4aa89e3a7010df818881c6bc22f58878078b92be4f80dddebd7",
+  "equity_sim_usd": "100",
+  "experiment": "btc_5m_frozen_learned_v5",
+  "fee_model": "0.10_CURVE_SENSITIVITY_NOT_VERIFIED_ACTUAL_FEE",
+  "financial_edge_proven": false,
+  "financial_status": "INSUFFICIENT_PROSPECTIVE_EVIDENCE",
+  "initial_capital_sim_usd": "100",
+  "latest_settlements": [],
+  "mode": "PAPER_ONLY_PUBLIC_GET",
+  "open_fills": 0,
+  "opportunities": 1,
+  "paper_evidence_gate_passed": false,
+  "paper_fills": 0,
+  "predictions": 1,
+  "realized_pnl_sim_usd": "0",
+  "rejection_counts": {
+    "NO_COSTED_EDGE": 1
+  },
+  "reserved_sim_usd": "0",
+  "settled_fills": 0,
+  "wins": 0
+}

@@ -1,0 +1,163 @@
+{
+  "as_of": "2026-09-18T22:04:28.574097+00:00",
+  "experiment": "btc_5m_jev_commander_v1",
+  "commander_model": "jev-latest",
+  "operational_status": "OBSERVING_AND_READY",
+  "balance_summary": {
+    "total_equity_sim_usd": "64.3549",
+    "cash_available_sim_usd": "64.3549",
+    "capital_in_play_sim_usd": "0",
+    "initial_capital_sim_usd": "100",
+    "realized_pnl_sim_usd": "-35.6451",
+    "net_roi_percent": -35.65,
+    "record": "12W - 8L",
+    "wins": 12,
+    "losses": 8,
+    "win_rate_percent": 60.0,
+    "current_streak": "1 VICTORIAS CONSECUTIVAS",
+    "longest_win_streak": 7,
+    "longest_loss_streak": 3
+  },
+  "cash_sim_usd": "64.3549",
+  "realized_pnl_sim_usd": "-35.6451",
+  "opportunities_seen": 36,
+  "jev_evaluations": 33,
+  "paper_fills_executed": 20,
+  "settled_trades": 20,
+  "wins": 12,
+  "losses": 8,
+  "win_rate_percent": 60.0,
+  "current_streak": "1 VICTORIAS CONSECUTIVAS",
+  "recent_trades": [
+    {
+      "slug": "btc-updown-5m-1789764300",
+      "side": "UP",
+      "cost_sim_usd": "9.9999",
+      "edge": "0.142290",
+      "status": "LOST",
+      "pnl_sim_usd": "-9.9999",
+      "settled_at": "2026-09-18T20:57:22.202952+00:00"
+    },
+    {
+      "slug": "btc-updown-5m-1789764600",
+      "side": "UP",
+      "cost_sim_usd": "9.9999",
+      "edge": "0.217890",
+      "status": "LOST",
+      "pnl_sim_usd": "-9.9999",
+      "settled_at": "2026-09-18T21:01:57.096774+00:00"
+    },
+    {
+      "slug": "btc-updown-5m-1789765200",
+      "side": "UP",
+      "cost_sim_usd": "9.9999",
+      "edge": "0.094610",
+      "status": "WON",
+      "pnl_sim_usd": "2.1155",
+      "settled_at": "2026-09-18T21:10:51.202219+00:00"
+    },
+    {
+      "slug": "btc-updown-5m-1789765500",
+      "side": "UP",
+      "cost_sim_usd": "9.9999",
+      "edge": "0.123410",
+      "status": "WON",
+      "pnl_sim_usd": "2.3979",
+      "settled_at": "2026-09-18T21:16:14.125019+00:00"
+    },
+    {
+      "slug": "btc-updown-5m-1789765800",
+      "side": "UP",
+      "cost_sim_usd": "9.9999",
+      "edge": "0.169840",
+      "status": "WON",
+      "pnl_sim_usd": "3.5106",
+      "settled_at": "2026-09-18T21:21:36.672678+00:00"
+    },
+    {
+      "slug": "btc-updown-5m-1789766400",
+      "side": "DOWN",
+      "cost_sim_usd": "9.9999",
+      "edge": "0.080760",
+      "status": "LOST",
+      "pnl_sim_usd": "-9.9999",
+      "settled_at": "2026-09-18T21:30:27.423080+00:00"
+    },
+    {
+      "slug": "btc-updown-5m-1789766700",
+      "side": "UP",
+      "cost_sim_usd": "9.9999",
+      "edge": "0.295640",
+      "status": "LOST",
+      "pnl_sim_usd": "-9.9999",
+      "settled_at": "2026-09-18T21:35:58.807596+00:00"
+    },
+    {
+      "slug": "btc-updown-5m-1789767000",
+      "side": "DOWN",
+      "cost_sim_usd": "9.9999",
+      "edge": "0.135240",
+      "status": "WON",
+      "pnl_sim_usd": "1.9795",
+      "settled_at": "2026-09-18T21:41:37.327157+00:00"
+    },
+    {
+      "slug": "btc-updown-5m-1789768200",
+      "side": "DOWN",
+      "cost_sim_usd": "2.7099",
+      "edge": "0.107560",
+      "status": "LOST",
+      "pnl_sim_usd": "-2.7099",
+      "settled_at": "2026-09-18T21:57:55.312841+00:00"
+    },
+    {
+      "slug": "btc-updown-5m-1789768500",
+      "side": "UP",
+      "cost_sim_usd": "7.3059",
+      "edge": "0.189410",
+      "status": "WON",
+      "pnl_sim_usd": "2.6941",
+      "settled_at": "2026-09-18T22:04:06.492530+00:00"
+    }
+  ],
+  "last_decision": {
+    "action": "PASS",
+    "side": null,
+    "asset_id": null,
+    "probability_up": 0.03,
+    "probability_down": 0.97,
+    "edge": "0",
+    "chosen_ask": "0",
+    "limit_price": "0",
+    "fee_per_share": "0",
+    "total_cost": "0",
+    "quantity": "0",
+    "stake_usd": "0",
+    "jev_latency_ms": 456.72100000228966,
+    "jev_model": "jev-latest",
+    "reason": "NO_COSTED_EDGE_MEETS_JEV_THRESHOLD",
+    "tokens_used": {
+      "input_tokens": 666,
+      "output_tokens": 34
+    },
+    "state_dossier": {
+      "mandate": "JEV_EXECUTIVE_COMMANDER",
+      "contract": "Bitcoin Up or Down, 5-minute expiry on Polymarket",
+      "slug": "btc-updown-5m-1789768800",
+      "seconds_to_expiry": 158.6,
+      "bitcoin_spot_price": 81206.97,
+      "bitcoin_open_reference": 81223.78,
+      "price_direction_from_open": "BELOW_OPEN",
+      "distance_from_open_usd": -16.81,
+      "standardized_log_distance_z": -0.2832,
+      "volatility_per_sqrt_second": 5.8e-05,
+      "polymarket_up_ask": 0.31,
+      "polymarket_down_ask": 0.7,
+      "polymarket_implied_probability_up": 0.3069,
+      "polymarket_overround_spread": 0.01,
+      "simulated_cash_available_usd": 54.3549
+    },
+    "kelly_fraction": 0.0
+  },
+  "financial_mandate": "PAPER_TRADING_ONLY_SIM_USD"
+}

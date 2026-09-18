@@ -1,0 +1,157 @@
+{
+  "as_of": "2026-09-18T18:10:30Z",
+  "model_jev": "jev-latest",
+  "sample_size": 10,
+  "accuracy": {
+    "jev_percent": 100.0,
+    "baseline_percent": 100.0,
+    "winner": "TIE"
+  },
+  "brier_score": {
+    "jev": 0.0226,
+    "baseline": 0.0713,
+    "market": 0.0681,
+    "best": "JEV"
+  },
+  "simulated_pnl": {
+    "jev_sim_usd": "15.5500",
+    "baseline_sim_usd": "0"
+  },
+  "token_usage": {
+    "input_tokens": 6054,
+    "output_tokens": 340,
+    "estimated_cost_usd": 0.01279
+  },
+  "cohort_results": [
+    {
+      "slug": "btc-updown-5m-1789195800",
+      "actual_outcome": "DOWN",
+      "jev_probability_up": 0.11,
+      "jev_prediction": "DOWN",
+      "jev_correct": true,
+      "jev_action": "PASS",
+      "jev_trade_pnl": "0",
+      "baseline_probability_up": 0.1905,
+      "baseline_prediction": "DOWN",
+      "baseline_correct": true,
+      "market_probability_up": 0.175
+    },
+    {
+      "slug": "btc-updown-5m-1789196100",
+      "actual_outcome": "DOWN",
+      "jev_probability_up": 0.09,
+      "jev_prediction": "DOWN",
+      "jev_correct": true,
+      "jev_action": "BUY_DOWN",
+      "jev_trade_pnl": "1.9500",
+      "baseline_probability_up": 0.2037,
+      "baseline_prediction": "DOWN",
+      "baseline_correct": true,
+      "market_probability_up": 0.225
+    },
+    {
+      "slug": "btc-updown-5m-1789196400",
+      "actual_outcome": "UP",
+      "jev_probability_up": 0.93,
+      "jev_prediction": "UP",
+      "jev_correct": true,
+      "jev_action": "BUY_UP",
+      "jev_trade_pnl": "1.1500",
+      "baseline_probability_up": 0.8512,
+      "baseline_prediction": "UP",
+      "baseline_correct": true,
+      "market_probability_up": 0.855
+    },
+    {
+      "slug": "btc-updown-5m-1789196700",
+      "actual_outcome": "UP",
+      "jev_probability_up": 0.96,
+      "jev_prediction": "UP",
+      "jev_correct": true,
+      "jev_action": "BUY_UP",
+      "jev_trade_pnl": "1.9500",
+      "baseline_probability_up": 0.7477,
+      "baseline_prediction": "UP",
+      "baseline_correct": true,
+      "market_probability_up": 0.775
+    },
+    {
+      "slug": "btc-updown-5m-1789197000",
+      "actual_outcome": "DOWN",
+      "jev_probability_up": 0.11,
+      "jev_prediction": "DOWN",
+      "jev_correct": true,
+      "jev_action": "BUY_DOWN",
+      "jev_trade_pnl": "2.9500",
+      "baseline_probability_up": 0.3351,
+      "baseline_prediction": "DOWN",
+      "baseline_correct": true,
+      "market_probability_up": 0.3317
+    },
+    {
+      "slug": "btc-updown-5m-1789197300",
+      "actual_outcome": "DOWN",
+      "jev_probability_up": 0.11,
+      "jev_prediction": "DOWN",
+      "jev_correct": true,
+      "jev_action": "BUY_DOWN",
+      "jev_trade_pnl": "1.5500",
+      "baseline_probability_up": 0.1804,
+      "baseline_prediction": "DOWN",
+      "baseline_correct": true,
+      "market_probability_up": 0.1768
+    },
+    {
+      "slug": "btc-updown-5m-1789197600",
+      "actual_outcome": "UP",
+      "jev_probability_up": 0.94,
+      "jev_prediction": "UP",
+      "jev_correct": true,
+      "jev_action": "BUY_UP",
+      "jev_trade_pnl": "3.2500",
+      "baseline_probability_up": 0.6553,
+      "baseline_prediction": "UP",
+      "baseline_correct": true,
+      "market_probability_up": 0.645
+    },
+    {
+      "slug": "btc-updown-5m-1789197900",
+      "actual_outcome": "DOWN",
+      "jev_probability_up": 0.07,
+      "jev_prediction": "DOWN",
+      "jev_correct": true,
+      "jev_action": "PASS",
+      "jev_trade_pnl": "0",
+      "baseline_probability_up": 0.1416,
+      "baseline_prediction": "DOWN",
+      "baseline_correct": true,
+      "market_probability_up": 0.135
+    },
+    {
+      "slug": "btc-updown-5m-1789198200",
+      "actual_outcome": "DOWN",
+      "jev_probability_up": 0.15,
+      "jev_prediction": "DOWN",
+      "jev_correct": true,
+      "jev_action": "BUY_DOWN",
+      "jev_trade_pnl": "2.7500",
+      "baseline_probability_up": 0.314,
+      "baseline_prediction": "DOWN",
+      "baseline_correct": true,
+      "market_probability_up": 0.305
+    },
+    {
+      "slug": "btc-updown-5m-1789198500",
+      "actual_outcome": "DOWN",
+      "jev_probability_up": 0.38,
+      "jev_prediction": "DOWN",
+      "jev_correct": true,
+      "jev_action": "PASS",
+      "jev_trade_pnl": "0",
+      "baseline_probability_up": 0.4084,
+      "baseline_prediction": "DOWN",
+      "baseline_correct": true,
+      "market_probability_up": 0.3873
+    }
+  ]
+}

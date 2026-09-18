@@ -1,0 +1,38 @@
+{
+  "experiment": "btc_5m_external_lag_v1",
+  "classification": "FIRST_PROSPECTIVE_PAPER_WIN_NOT_REPEATABILITY_PROOF",
+  "config_sha256": "441c334c04bf7f59fa3a10fcb6cadf934561b22635ea1205d2caf6e1537d6e4d",
+  "rule_registered_before_signal": true,
+  "market_id": "4630705",
+  "slug": "btc-updown-5m-1789700400",
+  "side": "UP",
+  "signal": {
+    "signal_at": "2026-09-18T03:04:25.580816Z",
+    "seen_ask": "0.53",
+    "limit_price": "0.55",
+    "conservative_probability": "0.7088438591432568",
+    "modeled_edge_per_share": "0.1440038591432568"
+  },
+  "paper_fill": {
+    "filled_at": "2026-09-18T03:04:26.248434Z",
+    "fill_price": "0.52",
+    "quantity": "18.349970",
+    "latency_ms": 450,
+    "fee_sim_usd": "0.45801525120",
+    "total_cost_sim_usd": "9.99999965120"
+  },
+  "official_settlement": {
+    "settled_at": "2026-09-18T03:10:27.030791Z",
+    "outcome_prices": [1, 0],
+    "resolution_status": "resolved",
+    "payout_per_share": "1"
+  },
+  "net_pnl_sim_usd": "8.34997034880",
+  "initial_capital_sim_usd": "1000",
+  "final_capital_sim_usd": "1008.34997034880",
+  "limitations": [
+    "One settled fill demonstrates a prospective paper win, not a repeatable financial edge",
+    "Coinbase is a proxy signal while the contract resolves from the Chainlink BTC/USD TWAP stream",
+    "Fees and latency are conservative simulation inputs; no real order or real money was used"
+  ]
+}

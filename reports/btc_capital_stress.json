@@ -1,0 +1,856 @@
+{
+  "automatic_policy_selection": false,
+  "classification": "EXPLORATORY_STRESS_ON_PREVIOUSLY_USED_VALIDATION",
+  "dataset_sha256": "d855c8dd55c71805b3b3199ecc9600f2bc0597496a240a13d62596c14d88a6fa",
+  "financial_edge_proven": false,
+  "holdout_evaluated": false,
+  "limitations": [
+    "Historical prices are sampled proxies, not confirmed executable asks or depth.",
+    "Minimum size of five shares and release delays are assumptions.",
+    "Validation previously selected the model; this is not fresh performance evidence.",
+    "Kelly depends on imperfect estimated probabilities and cannot create an edge.",
+    "Daily bootstrap intervals describe selected past PnLs, not future returns."
+  ],
+  "model_spec": {
+    "horizon_seconds": 60,
+    "max_ask": 0.85,
+    "min_edge": 0.06,
+    "ridge": 100.0
+  },
+  "refit": false,
+  "report_schema": "edgehunter.btc_intraday_evaluation.v1",
+  "scenarios": [
+    {
+      "costs": {
+        "fee_curve": 0.1,
+        "name": "conservative",
+        "slippage": 0.03,
+        "stake": 10
+      },
+      "metrics": {
+        "active_days": 26,
+        "bootstrap": {
+          "clusters": 53,
+          "draws": 2000,
+          "method": "UTC-day cluster bootstrap",
+          "net_pnl_ci95": [
+            78.43572381959852,
+            382.3728520580508
+          ],
+          "positive_fraction": 1.0,
+          "seed": 20260918
+        },
+        "final_capital": 323.7019353602725,
+        "initial_capital": 100.0,
+        "losses": 10,
+        "max_drawdown": 19.99999975188001,
+        "max_drawdown_fraction": 0.10575603333764733,
+        "maximum_reserved": 9.99999994938,
+        "mean_pnl": 4.660456986672344,
+        "minimum_available_cash": 80.0000006972425,
+        "minimum_shares_assumption": 5.0,
+        "net_pnl": 223.70193536027247,
+        "return_on_stake": 0.4660457145518903,
+        "settlement_delay_seconds": 300,
+        "signals": 48,
+        "skipped_minimum_size": 0,
+        "skipped_unfunded": 0,
+        "trades": 48,
+        "win_rate": 0.7916666666666666,
+        "wins": 38
+      },
+      "policy": {
+        "kelly_fraction": null,
+        "maximum_bankroll_fraction": 0.1,
+        "maximum_stake": 10,
+        "name": "fixed_10"
+      }
+    },
+    {
+      "costs": {
+        "fee_curve": 0.1,
+        "name": "conservative",
+        "slippage": 0.03,
+        "stake": 10
+      },
+      "metrics": {
+        "active_days": 26,
+        "bootstrap": {
+          "clusters": 53,
+          "draws": 2000,
+          "method": "UTC-day cluster bootstrap",
+          "net_pnl_ci95": [
+            78.43572381959852,
+            382.3728520580508
+          ],
+          "positive_fraction": 1.0,
+          "seed": 20260918
+        },
+        "final_capital": 323.7019353602725,
+        "initial_capital": 100.0,
+        "losses": 10,
+        "max_drawdown": 19.99999975188001,
+        "max_drawdown_fraction": 0.10575603333764733,
+        "maximum_reserved": 29.999999472060004,
+        "mean_pnl": 4.660456986672344,
+        "minimum_available_cash": 80.0000006972425,
+        "minimum_shares_assumption": 5.0,
+        "net_pnl": 223.70193536027247,
+        "return_on_stake": 0.4660457145518903,
+        "settlement_delay_seconds": 3600,
+        "signals": 48,
+        "skipped_minimum_size": 0,
+        "skipped_unfunded": 0,
+        "trades": 48,
+        "win_rate": 0.7916666666666666,
+        "wins": 38
+      },
+      "policy": {
+        "kelly_fraction": null,
+        "maximum_bankroll_fraction": 0.1,
+        "maximum_stake": 10,
+        "name": "fixed_10"
+      }
+    },
+    {
+      "costs": {
+        "fee_curve": 0.1,
+        "name": "conservative",
+        "slippage": 0.03,
+        "stake": 10
+      },
+      "metrics": {
+        "active_days": 26,
+        "bootstrap": {
+          "clusters": 53,
+          "draws": 2000,
+          "method": "UTC-day cluster bootstrap",
+          "net_pnl_ci95": [
+            39.21786172277979,
+            191.18642133114363
+          ],
+          "positive_fraction": 1.0,
+          "seed": 20260918
+        },
+        "final_capital": 211.850965426615,
+        "initial_capital": 100.0,
+        "losses": 10,
+        "max_drawdown": 9.999999875939977,
+        "max_drawdown_fraction": 0.06777406722065404,
+        "maximum_reserved": 4.99999997469,
+        "mean_pnl": 2.330228446387812,
+        "minimum_available_cash": 90.00000062856,
+        "minimum_shares_assumption": 5.0,
+        "net_pnl": 111.85096542661499,
+        "return_on_stake": 0.46604571535013073,
+        "settlement_delay_seconds": 300,
+        "signals": 48,
+        "skipped_minimum_size": 0,
+        "skipped_unfunded": 0,
+        "trades": 48,
+        "win_rate": 0.7916666666666666,
+        "wins": 38
+      },
+      "policy": {
+        "kelly_fraction": null,
+        "maximum_bankroll_fraction": 0.1,
+        "maximum_stake": 5,
+        "name": "fixed_5"
+      }
+    },
+    {
+      "costs": {
+        "fee_curve": 0.1,
+        "name": "conservative",
+        "slippage": 0.03,
+        "stake": 10
+      },
+      "metrics": {
+        "active_days": 26,
+        "bootstrap": {
+          "clusters": 53,
+          "draws": 2000,
+          "method": "UTC-day cluster bootstrap",
+          "net_pnl_ci95": [
+            39.21786172277979,
+            191.18642133114363
+          ],
+          "positive_fraction": 1.0,
+          "seed": 20260918
+        },
+        "final_capital": 211.850965426615,
+        "initial_capital": 100.0,
+        "losses": 10,
+        "max_drawdown": 9.999999875939977,
+        "max_drawdown_fraction": 0.06777406722065404,
+        "maximum_reserved": 14.999999736030002,
+        "mean_pnl": 2.330228446387812,
+        "minimum_available_cash": 90.00000062856,
+        "minimum_shares_assumption": 5.0,
+        "net_pnl": 111.85096542661499,
+        "return_on_stake": 0.46604571535013073,
+        "settlement_delay_seconds": 3600,
+        "signals": 48,
+        "skipped_minimum_size": 0,
+        "skipped_unfunded": 0,
+        "trades": 48,
+        "win_rate": 0.7916666666666666,
+        "wins": 38
+      },
+      "policy": {
+        "kelly_fraction": null,
+        "maximum_bankroll_fraction": 0.1,
+        "maximum_stake": 5,
+        "name": "fixed_5"
+      }
+    },
+    {
+      "costs": {
+        "fee_curve": 0.1,
+        "name": "conservative",
+        "slippage": 0.03,
+        "stake": 10
+      },
+      "metrics": {
+        "active_days": 26,
+        "bootstrap": {
+          "clusters": 53,
+          "draws": 2000,
+          "method": "UTC-day cluster bootstrap",
+          "net_pnl_ci95": [
+            54.23183392213291,
+            290.06904028466215
+          ],
+          "positive_fraction": 1.0,
+          "seed": 20260918
+        },
+        "final_capital": 261.67474368068247,
+        "initial_capital": 100.0,
+        "losses": 10,
+        "max_drawdown": 12.70887960128249,
+        "max_drawdown_fraction": 0.09025830768355808,
+        "maximum_reserved": 9.999999915975001,
+        "mean_pnl": 3.368223826680885,
+        "minimum_available_cash": 89.1489956663375,
+        "minimum_shares_assumption": 5.0,
+        "net_pnl": 161.6747436806825,
+        "return_on_stake": 0.4118618047577471,
+        "settlement_delay_seconds": 300,
+        "signals": 48,
+        "skipped_minimum_size": 0,
+        "skipped_unfunded": 0,
+        "trades": 48,
+        "win_rate": 0.7916666666666666,
+        "wins": 38
+      },
+      "policy": {
+        "kelly_fraction": 0.25,
+        "maximum_bankroll_fraction": 0.1,
+        "maximum_stake": 10.0,
+        "name": "quarter_kelly_capped_10"
+      }
+    },
+    {
+      "costs": {
+        "fee_curve": 0.1,
+        "name": "conservative",
+        "slippage": 0.03,
+        "stake": 10
+      },
+      "metrics": {
+        "active_days": 26,
+        "bootstrap": {
+          "clusters": 53,
+          "draws": 2000,
+          "method": "UTC-day cluster bootstrap",
+          "net_pnl_ci95": [
+            53.86843383436141,
+            286.9346818531156
+          ],
+          "positive_fraction": 1.0,
+          "seed": 20260918
+        },
+        "final_capital": 260.07169125686244,
+        "initial_capital": 100.0,
+        "losses": 10,
+        "max_drawdown": 12.65070558173251,
+        "max_drawdown_fraction": 0.09025830915743324,
+        "maximum_reserved": 29.999999472059997,
+        "mean_pnl": 3.334826901184635,
+        "minimum_available_cash": 89.1489956663375,
+        "minimum_shares_assumption": 5.0,
+        "net_pnl": 160.07169125686244,
+        "return_on_stake": 0.4102285237359844,
+        "settlement_delay_seconds": 3600,
+        "signals": 48,
+        "skipped_minimum_size": 0,
+        "skipped_unfunded": 0,
+        "trades": 48,
+        "win_rate": 0.7916666666666666,
+        "wins": 38
+      },
+      "policy": {
+        "kelly_fraction": 0.25,
+        "maximum_bankroll_fraction": 0.1,
+        "maximum_stake": 10.0,
+        "name": "quarter_kelly_capped_10"
+      }
+    },
+    {
+      "costs": {
+        "fee_curve": 0.1,
+        "name": "extra_2c",
+        "slippage": 0.05,
+        "stake": 10
+      },
+      "metrics": {
+        "active_days": 19,
+        "bootstrap": {
+          "clusters": 53,
+          "draws": 2000,
+          "method": "UTC-day cluster bootstrap",
+          "net_pnl_ci95": [
+            52.52077856351059,
+            268.44709466243796
+          ],
+          "positive_fraction": 1.0,
+          "seed": 20260918
+        },
+        "final_capital": 252.94932042511496,
+        "initial_capital": 100.0,
+        "losses": 6,
+        "max_drawdown": 12.7496231754875,
+        "max_drawdown_fraction": 0.12218311296221641,
+        "maximum_reserved": 9.999999975000001,
+        "mean_pnl": 5.098310680837166,
+        "minimum_available_cash": 81.59886557003252,
+        "minimum_shares_assumption": 5.0,
+        "net_pnl": 152.94932042511496,
+        "return_on_stake": 0.5098310807022309,
+        "settlement_delay_seconds": 300,
+        "signals": 30,
+        "skipped_minimum_size": 0,
+        "skipped_unfunded": 0,
+        "trades": 30,
+        "win_rate": 0.8,
+        "wins": 24
+      },
+      "policy": {
+        "kelly_fraction": null,
+        "maximum_bankroll_fraction": 0.1,
+        "maximum_stake": 10,
+        "name": "fixed_10"
+      }
+    },
+    {
+      "costs": {
+        "fee_curve": 0.1,
+        "name": "extra_2c",
+        "slippage": 0.05,
+        "stake": 10
+      },
+      "metrics": {
+        "active_days": 19,
+        "bootstrap": {
+          "clusters": 53,
+          "draws": 2000,
+          "method": "UTC-day cluster bootstrap",
+          "net_pnl_ci95": [
+            52.52077856351059,
+            268.44709466243796
+          ],
+          "positive_fraction": 1.0,
+          "seed": 20260918
+        },
+        "final_capital": 252.94932042511496,
+        "initial_capital": 100.0,
+        "losses": 6,
+        "max_drawdown": 12.7496231754875,
+        "max_drawdown_fraction": 0.12218311296221641,
+        "maximum_reserved": 29.99999971837501,
+        "mean_pnl": 5.098310680837166,
+        "minimum_available_cash": 81.59886557003252,
+        "minimum_shares_assumption": 5.0,
+        "net_pnl": 152.94932042511496,
+        "return_on_stake": 0.5098310807022309,
+        "settlement_delay_seconds": 3600,
+        "signals": 30,
+        "skipped_minimum_size": 0,
+        "skipped_unfunded": 0,
+        "trades": 30,
+        "win_rate": 0.8,
+        "wins": 24
+      },
+      "policy": {
+        "kelly_fraction": null,
+        "maximum_bankroll_fraction": 0.1,
+        "maximum_stake": 10,
+        "name": "fixed_10"
+      }
+    },
+    {
+      "costs": {
+        "fee_curve": 0.1,
+        "name": "extra_2c",
+        "slippage": 0.05,
+        "stake": 10
+      },
+      "metrics": {
+        "active_days": 19,
+        "bootstrap": {
+          "clusters": 53,
+          "draws": 2000,
+          "method": "UTC-day cluster bootstrap",
+          "net_pnl_ci95": [
+            26.260389900307107,
+            134.22354564071398
+          ],
+          "positive_fraction": 1.0,
+          "seed": 20260918
+        },
+        "final_capital": 176.4746592409525,
+        "initial_capital": 100.0,
+        "losses": 6,
+        "max_drawdown": 6.37481130780499,
+        "max_drawdown_fraction": 0.062391567954242035,
+        "maximum_reserved": 4.999999949489999,
+        "mean_pnl": 2.5491553080317493,
+        "minimum_available_cash": 90.799433064955,
+        "minimum_shares_assumption": 5.0,
+        "net_pnl": 76.47465924095249,
+        "return_on_stake": 0.5098310828185603,
+        "settlement_delay_seconds": 300,
+        "signals": 30,
+        "skipped_minimum_size": 0,
+        "skipped_unfunded": 0,
+        "trades": 30,
+        "win_rate": 0.8,
+        "wins": 24
+      },
+      "policy": {
+        "kelly_fraction": null,
+        "maximum_bankroll_fraction": 0.1,
+        "maximum_stake": 5,
+        "name": "fixed_5"
+      }
+    },
+    {
+      "costs": {
+        "fee_curve": 0.1,
+        "name": "extra_2c",
+        "slippage": 0.05,
+        "stake": 10
+      },
+      "metrics": {
+        "active_days": 19,
+        "bootstrap": {
+          "clusters": 53,
+          "draws": 2000,
+          "method": "UTC-day cluster bootstrap",
+          "net_pnl_ci95": [
+            26.260389900307107,
+            134.22354564071398
+          ],
+          "positive_fraction": 1.0,
+          "seed": 20260918
+        },
+        "final_capital": 176.4746592409525,
+        "initial_capital": 100.0,
+        "losses": 6,
+        "max_drawdown": 6.37481130780499,
+        "max_drawdown_fraction": 0.062391567954242035,
+        "maximum_reserved": 14.999999284437504,
+        "mean_pnl": 2.5491553080317493,
+        "minimum_available_cash": 90.799433064955,
+        "minimum_shares_assumption": 5.0,
+        "net_pnl": 76.47465924095249,
+        "return_on_stake": 0.5098310828185603,
+        "settlement_delay_seconds": 3600,
+        "signals": 30,
+        "skipped_minimum_size": 0,
+        "skipped_unfunded": 0,
+        "trades": 30,
+        "win_rate": 0.8,
+        "wins": 24
+      },
+      "policy": {
+        "kelly_fraction": null,
+        "maximum_bankroll_fraction": 0.1,
+        "maximum_stake": 5,
+        "name": "fixed_5"
+      }
+    },
+    {
+      "costs": {
+        "fee_curve": 0.1,
+        "name": "extra_2c",
+        "slippage": 0.05,
+        "stake": 10
+      },
+      "metrics": {
+        "active_days": 19,
+        "bootstrap": {
+          "clusters": 53,
+          "draws": 2000,
+          "method": "UTC-day cluster bootstrap",
+          "net_pnl_ci95": [
+            21.622080148595376,
+            176.59372343700193
+          ],
+          "positive_fraction": 0.997,
+          "seed": 20260918
+        },
+        "final_capital": 193.61529927394747,
+        "initial_capital": 100.0,
+        "losses": 6,
+        "max_drawdown": 10.804366175359988,
+        "max_drawdown_fraction": 0.10365460415690468,
+        "maximum_reserved": 9.999999975000001,
+        "mean_pnl": 3.1205099757982495,
+        "minimum_available_cash": 89.06418931587501,
+        "minimum_shares_assumption": 5.0,
+        "net_pnl": 93.61529927394746,
+        "return_on_stake": 0.40207111718790406,
+        "settlement_delay_seconds": 300,
+        "signals": 30,
+        "skipped_minimum_size": 0,
+        "skipped_unfunded": 0,
+        "trades": 30,
+        "win_rate": 0.8,
+        "wins": 24
+      },
+      "policy": {
+        "kelly_fraction": 0.25,
+        "maximum_bankroll_fraction": 0.1,
+        "maximum_stake": 10.0,
+        "name": "quarter_kelly_capped_10"
+      }
+    },
+    {
+      "costs": {
+        "fee_curve": 0.1,
+        "name": "extra_2c",
+        "slippage": 0.05,
+        "stake": 10
+      },
+      "metrics": {
+        "active_days": 19,
+        "bootstrap": {
+          "clusters": 53,
+          "draws": 2000,
+          "method": "UTC-day cluster bootstrap",
+          "net_pnl_ci95": [
+            21.461101268114184,
+            176.05111759353855
+          ],
+          "positive_fraction": 0.997,
+          "seed": 20260918
+        },
+        "final_capital": 193.18286566386246,
+        "initial_capital": 100.0,
+        "losses": 6,
+        "max_drawdown": 10.804366175359988,
+        "max_drawdown_fraction": 0.10365460415690468,
+        "maximum_reserved": 29.99999971837501,
+        "mean_pnl": 3.1060955221287494,
+        "minimum_available_cash": 88.16648729864501,
+        "minimum_shares_assumption": 5.0,
+        "net_pnl": 93.18286566386247,
+        "return_on_stake": 0.4012633020485168,
+        "settlement_delay_seconds": 3600,
+        "signals": 30,
+        "skipped_minimum_size": 0,
+        "skipped_unfunded": 0,
+        "trades": 30,
+        "win_rate": 0.8,
+        "wins": 24
+      },
+      "policy": {
+        "kelly_fraction": 0.25,
+        "maximum_bankroll_fraction": 0.1,
+        "maximum_stake": 10.0,
+        "name": "quarter_kelly_capped_10"
+      }
+    },
+    {
+      "costs": {
+        "fee_curve": 0.1,
+        "name": "extra_5c",
+        "slippage": 0.08,
+        "stake": 10
+      },
+      "metrics": {
+        "active_days": 14,
+        "bootstrap": {
+          "clusters": 53,
+          "draws": 2000,
+          "method": "UTC-day cluster bootstrap",
+          "net_pnl_ci95": [
+            -14.978274134617685,
+            126.60785653922068
+          ],
+          "positive_fraction": 0.9285,
+          "seed": 20260918
+        },
+        "final_capital": 152.3863888192225,
+        "initial_capital": 100.0,
+        "losses": 5,
+        "max_drawdown": 23.587116665224997,
+        "max_drawdown_fraction": 0.22728447835641366,
+        "maximum_reserved": 9.9999998678125,
+        "mean_pnl": 2.6193194409611253,
+        "minimum_available_cash": 70.19083104416751,
+        "minimum_shares_assumption": 5.0,
+        "net_pnl": 52.38638881922251,
+        "return_on_stake": 0.26193195171731404,
+        "settlement_delay_seconds": 300,
+        "signals": 20,
+        "skipped_minimum_size": 0,
+        "skipped_unfunded": 0,
+        "trades": 20,
+        "win_rate": 0.75,
+        "wins": 15
+      },
+      "policy": {
+        "kelly_fraction": null,
+        "maximum_bankroll_fraction": 0.1,
+        "maximum_stake": 10,
+        "name": "fixed_10"
+      }
+    },
+    {
+      "costs": {
+        "fee_curve": 0.1,
+        "name": "extra_5c",
+        "slippage": 0.08,
+        "stake": 10
+      },
+      "metrics": {
+        "active_days": 14,
+        "bootstrap": {
+          "clusters": 53,
+          "draws": 2000,
+          "method": "UTC-day cluster bootstrap",
+          "net_pnl_ci95": [
+            -14.978274134617685,
+            126.60785653922068
+          ],
+          "positive_fraction": 0.9285,
+          "seed": 20260918
+        },
+        "final_capital": 152.3863888192225,
+        "initial_capital": 100.0,
+        "losses": 5,
+        "max_drawdown": 23.587116665224997,
+        "max_drawdown_fraction": 0.22728447835641366,
+        "maximum_reserved": 29.999999442575003,
+        "mean_pnl": 2.6193194409611253,
+        "minimum_available_cash": 70.19083104416751,
+        "minimum_shares_assumption": 5.0,
+        "net_pnl": 52.38638881922251,
+        "return_on_stake": 0.26193195171731404,
+        "settlement_delay_seconds": 3600,
+        "signals": 20,
+        "skipped_minimum_size": 0,
+        "skipped_unfunded": 0,
+        "trades": 20,
+        "win_rate": 0.75,
+        "wins": 15
+      },
+      "policy": {
+        "kelly_fraction": null,
+        "maximum_bankroll_fraction": 0.1,
+        "maximum_stake": 10,
+        "name": "fixed_10"
+      }
+    },
+    {
+      "costs": {
+        "fee_curve": 0.1,
+        "name": "extra_5c",
+        "slippage": 0.08,
+        "stake": 10
+      },
+      "metrics": {
+        "active_days": 14,
+        "bootstrap": {
+          "clusters": 53,
+          "draws": 2000,
+          "method": "UTC-day cluster bootstrap",
+          "net_pnl_ci95": [
+            -7.489137203853625,
+            63.30392768367481
+          ],
+          "positive_fraction": 0.9285,
+          "seed": 20260918
+        },
+        "final_capital": 126.1931937737375,
+        "initial_capital": 100.0,
+        "losses": 5,
+        "max_drawdown": 11.793557972112495,
+        "max_drawdown_fraction": 0.11574910957695132,
+        "maximum_reserved": 4.9999999077,
+        "mean_pnl": 1.309659688686875,
+        "minimum_available_cash": 85.0954157454825,
+        "minimum_shares_assumption": 5.0,
+        "net_pnl": 26.193193773737498,
+        "return_on_stake": 0.2619319502413187,
+        "settlement_delay_seconds": 300,
+        "signals": 20,
+        "skipped_minimum_size": 0,
+        "skipped_unfunded": 0,
+        "trades": 20,
+        "win_rate": 0.75,
+        "wins": 15
+      },
+      "policy": {
+        "kelly_fraction": null,
+        "maximum_bankroll_fraction": 0.1,
+        "maximum_stake": 5,
+        "name": "fixed_5"
+      }
+    },
+    {
+      "costs": {
+        "fee_curve": 0.1,
+        "name": "extra_5c",
+        "slippage": 0.08,
+        "stake": 10
+      },
+      "metrics": {
+        "active_days": 14,
+        "bootstrap": {
+          "clusters": 53,
+          "draws": 2000,
+          "method": "UTC-day cluster bootstrap",
+          "net_pnl_ci95": [
+            -7.489137203853625,
+            63.30392768367481
+          ],
+          "positive_fraction": 0.9285,
+          "seed": 20260918
+        },
+        "final_capital": 126.1931937737375,
+        "initial_capital": 100.0,
+        "losses": 5,
+        "max_drawdown": 11.793557972112495,
+        "max_drawdown_fraction": 0.11574910957695132,
+        "maximum_reserved": 14.999999116927501,
+        "mean_pnl": 1.309659688686875,
+        "minimum_available_cash": 85.0954157454825,
+        "minimum_shares_assumption": 5.0,
+        "net_pnl": 26.193193773737498,
+        "return_on_stake": 0.2619319502413187,
+        "settlement_delay_seconds": 3600,
+        "signals": 20,
+        "skipped_minimum_size": 0,
+        "skipped_unfunded": 0,
+        "trades": 20,
+        "win_rate": 0.75,
+        "wins": 15
+      },
+      "policy": {
+        "kelly_fraction": null,
+        "maximum_bankroll_fraction": 0.1,
+        "maximum_stake": 5,
+        "name": "fixed_5"
+      }
+    },
+    {
+      "costs": {
+        "fee_curve": 0.1,
+        "name": "extra_5c",
+        "slippage": 0.08,
+        "stake": 10
+      },
+      "metrics": {
+        "active_days": 14,
+        "bootstrap": {
+          "clusters": 53,
+          "draws": 2000,
+          "method": "UTC-day cluster bootstrap",
+          "net_pnl_ci95": [
+            -17.023331949247495,
+            91.10868120731283
+          ],
+          "positive_fraction": 0.9025,
+          "seed": 20260918
+        },
+        "final_capital": 133.690303213145,
+        "initial_capital": 100.0,
+        "losses": 5,
+        "max_drawdown": 15.960065393739981,
+        "max_drawdown_fraction": 0.15497487703418894,
+        "maximum_reserved": 9.999999781695001,
+        "mean_pnl": 1.6845151606572504,
+        "minimum_available_cash": 83.22236671573499,
+        "minimum_shares_assumption": 5.0,
+        "net_pnl": 33.690303213145015,
+        "return_on_stake": 0.23768175154145663,
+        "settlement_delay_seconds": 300,
+        "signals": 20,
+        "skipped_minimum_size": 0,
+        "skipped_unfunded": 0,
+        "trades": 20,
+        "win_rate": 0.75,
+        "wins": 15
+      },
+      "policy": {
+        "kelly_fraction": 0.25,
+        "maximum_bankroll_fraction": 0.1,
+        "maximum_stake": 10.0,
+        "name": "quarter_kelly_capped_10"
+      }
+    },
+    {
+      "costs": {
+        "fee_curve": 0.1,
+        "name": "extra_5c",
+        "slippage": 0.08,
+        "stake": 10
+      },
+      "metrics": {
+        "active_days": 14,
+        "bootstrap": {
+          "clusters": 53,
+          "draws": 2000,
+          "method": "UTC-day cluster bootstrap",
+          "net_pnl_ci95": [
+            -17.039022920793744,
+            90.16891454497397
+          ],
+          "positive_fraction": 0.901,
+          "seed": 20260918
+        },
+        "final_capital": 133.3549960927075,
+        "initial_capital": 100.0,
+        "losses": 5,
+        "max_drawdown": 15.960065393739981,
+        "max_drawdown_fraction": 0.15497487703418894,
+        "maximum_reserved": 27.442948656415,
+        "mean_pnl": 1.6677498046353754,
+        "minimum_available_cash": 80.63066728106249,
+        "minimum_shares_assumption": 5.0,
+        "net_pnl": 33.3549960927075,
+        "return_on_stake": 0.2361838009290703,
+        "settlement_delay_seconds": 3600,
+        "signals": 20,
+        "skipped_minimum_size": 0,
+        "skipped_unfunded": 0,
+        "trades": 20,
+        "win_rate": 0.75,
+        "wins": 15
+      },
+      "policy": {
+        "kelly_fraction": 0.25,
+        "maximum_bankroll_fraction": 0.1,
+        "maximum_stake": 10.0,
+        "name": "quarter_kelly_capped_10"
+      }
+    }
+  ],
+  "source_sha256": "c45df72eebc08b721b318d36d96f914227a3d6f0a33904888ab74f95d79b611e",
+  "validation_end_epoch": 1789188300,
+  "validation_rows": 14982,
+  "validation_start_epoch": 1784682000
+}

@@ -1,0 +1,1131 @@
+{
+  "method": "Frozen selected model diagnostics on development only. No fitting or holdout access. Validation already selected this model, hence descriptive not independent evidence.",
+  "selected_spec": {
+    "horizon_seconds": 60,
+    "max_ask": 0.85,
+    "min_edge": 0.06,
+    "ridge": 100.0
+  },
+  "diagnostics": {
+    "train": {
+      "rows": 44795,
+      "brier_learned": 0.1845154747493591,
+      "brier_normalized_market": 0.18455720179088975,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "count": 2647,
+          "mean_probability": 0.05687140561985212,
+          "actual_up_rate": 0.053645636569701546
+        },
+        {
+          "lower": 0.1,
+          "count": 3869,
+          "mean_probability": 0.15253522826963653,
+          "actual_up_rate": 0.14138020160248127
+        },
+        {
+          "lower": 0.2,
+          "count": 4726,
+          "mean_probability": 0.2511394089833666,
+          "actual_up_rate": 0.25603046974185356
+        },
+        {
+          "lower": 0.3,
+          "count": 5287,
+          "mean_probability": 0.351636354808322,
+          "actual_up_rate": 0.34461887648950257
+        },
+        {
+          "lower": 0.4,
+          "count": 5690,
+          "mean_probability": 0.44999188045395244,
+          "actual_up_rate": 0.4469244288224956
+        },
+        {
+          "lower": 0.5,
+          "count": 5657,
+          "mean_probability": 0.5497053049160844,
+          "actual_up_rate": 0.5543574332685168
+        },
+        {
+          "lower": 0.6,
+          "count": 5451,
+          "mean_probability": 0.6496323869337036,
+          "actual_up_rate": 0.6606127316088791
+        },
+        {
+          "lower": 0.7,
+          "count": 4901,
+          "mean_probability": 0.7494690322185529,
+          "actual_up_rate": 0.7504590899816364
+        },
+        {
+          "lower": 0.8,
+          "count": 3998,
+          "mean_probability": 0.8473874912051761,
+          "actual_up_rate": 0.8451725862931466
+        },
+        {
+          "lower": 0.9,
+          "count": 2569,
+          "mean_probability": 0.9431804471824523,
+          "actual_up_rate": 0.9435578045932269
+        }
+      ],
+      "all_rows_timing": {
+        "rows": 44795,
+        "effective_horizon_counts": {
+          "180": 44696,
+          "60": 30,
+          "120": 69
+        },
+        "quote_skew_seconds_quantiles": [
+          0.0,
+          1.0,
+          5.0,
+          13.0,
+          59.0
+        ],
+        "price_sum_quantiles": [
+          0.41,
+          0.96,
+          0.995,
+          1.0,
+          1.005,
+          1.04,
+          1.415
+        ]
+      },
+      "selected_trades_timing": {
+        "rows": 64,
+        "effective_horizon_counts": {
+          "180": 63,
+          "120": 1
+        },
+        "quote_skew_seconds_quantiles": [
+          0.0,
+          43.5,
+          52.7,
+          57.37,
+          58.0
+        ],
+        "price_sum_quantiles": [
+          0.41,
+          0.4541,
+          0.596,
+          0.7949999999999999,
+          1.0,
+          1.0406999999999997,
+          1.1099999999999999
+        ]
+      },
+      "trade_count": 64,
+      "net_pnl": 154.3359665350999,
+      "selected_trades_by_month": {
+        "2026-02": {
+          "trades": 5,
+          "pnl": 14.594138182553504
+        },
+        "2026-03": {
+          "trades": 12,
+          "pnl": 9.009008651155211
+        },
+        "2026-04": {
+          "trades": 42,
+          "pnl": 91.66233522292104
+        },
+        "2026-05": {
+          "trades": 4,
+          "pnl": 30.886599946136908
+        },
+        "2026-06": {
+          "trades": 1,
+          "pnl": 8.18388453233322
+        }
+      },
+      "quote_skew_on_selected_trades": [
+        {
+          "slug": "btc-updown-5m-1770859500",
+          "price_sum": 1.0,
+          "skew": 0,
+          "effective_horizon": 180,
+          "pnl": 2.5445330924782983
+        },
+        {
+          "slug": "btc-updown-5m-1771096500",
+          "price_sum": 0.99,
+          "skew": 9,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1771159800",
+          "price_sum": 1.1099999999999999,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": 2.695027357783955
+        },
+        {
+          "slug": "btc-updown-5m-1771405800",
+          "price_sum": 0.665,
+          "skew": 29,
+          "effective_horizon": 180,
+          "pnl": 7.10454296661193
+        },
+        {
+          "slug": "btc-updown-5m-1772090400",
+          "price_sum": 0.495,
+          "skew": 38,
+          "effective_horizon": 180,
+          "pnl": 12.25003476567932
+        },
+        {
+          "slug": "btc-updown-5m-1772462100",
+          "price_sum": 1.0,
+          "skew": 0,
+          "effective_horizon": 120,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1772479500",
+          "price_sum": 0.79,
+          "skew": 51,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1772842800",
+          "price_sum": 1.0,
+          "skew": 7,
+          "effective_horizon": 180,
+          "pnl": 3.254205725154163
+        },
+        {
+          "slug": "btc-updown-5m-1773149400",
+          "price_sum": 0.9550000000000001,
+          "skew": 7,
+          "effective_horizon": 180,
+          "pnl": 4.550163507462415
+        },
+        {
+          "slug": "btc-updown-5m-1773178800",
+          "price_sum": 0.935,
+          "skew": 4,
+          "effective_horizon": 180,
+          "pnl": 2.325934691035039
+        },
+        {
+          "slug": "btc-updown-5m-1773846000",
+          "price_sum": 0.865,
+          "skew": 6,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1774353600",
+          "price_sum": 1.0,
+          "skew": 3,
+          "effective_horizon": 180,
+          "pnl": 8.519290155608335
+        },
+        {
+          "slug": "btc-updown-5m-1774363800",
+          "price_sum": 0.99,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": 6.0256410256410255
+        },
+        {
+          "slug": "btc-updown-5m-1774947600",
+          "price_sum": 0.63,
+          "skew": 43,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1774971000",
+          "price_sum": 0.63,
+          "skew": 53,
+          "effective_horizon": 180,
+          "pnl": 10.842126105283999
+        },
+        {
+          "slug": "btc-updown-5m-1774971300",
+          "price_sum": 0.76,
+          "skew": 47,
+          "effective_horizon": 180,
+          "pnl": 4.9723572853619
+        },
+        {
+          "slug": "btc-updown-5m-1774973100",
+          "price_sum": 0.59,
+          "skew": 44,
+          "effective_horizon": 180,
+          "pnl": 8.519290155608335
+        },
+        {
+          "slug": "btc-updown-5m-1775080200",
+          "price_sum": 0.625,
+          "skew": 55,
+          "effective_horizon": 180,
+          "pnl": 10.62536094381652
+        },
+        {
+          "slug": "btc-updown-5m-1775238900",
+          "price_sum": 0.7999999999999999,
+          "skew": 50,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1775246700",
+          "price_sum": 0.73,
+          "skew": 51,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1775249100",
+          "price_sum": 0.73,
+          "skew": 56,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1775279400",
+          "price_sum": 1.0,
+          "skew": 5,
+          "effective_horizon": 180,
+          "pnl": 7.250376273832469
+        },
+        {
+          "slug": "btc-updown-5m-1775341200",
+          "price_sum": 1.0,
+          "skew": 5,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1775571600",
+          "price_sum": 1.0,
+          "skew": 4,
+          "effective_horizon": 180,
+          "pnl": 2.325934691035039
+        },
+        {
+          "slug": "btc-updown-5m-1775605500",
+          "price_sum": 0.7200000000000001,
+          "skew": 47,
+          "effective_horizon": 180,
+          "pnl": 3.7779477057994804
+        },
+        {
+          "slug": "btc-updown-5m-1775616000",
+          "price_sum": 0.78,
+          "skew": 49,
+          "effective_horizon": 180,
+          "pnl": 10.41326658195161
+        },
+        {
+          "slug": "btc-updown-5m-1775636700",
+          "price_sum": 0.48,
+          "skew": 52,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1775638500",
+          "price_sum": 0.77,
+          "skew": 45,
+          "effective_horizon": 180,
+          "pnl": 4.550163507462415
+        },
+        {
+          "slug": "btc-updown-5m-1775641500",
+          "price_sum": 0.78,
+          "skew": 45,
+          "effective_horizon": 180,
+          "pnl": 6.961298557017521
+        },
+        {
+          "slug": "btc-updown-5m-1775653500",
+          "price_sum": 0.99,
+          "skew": 5,
+          "effective_horizon": 180,
+          "pnl": 3.423944961825656
+        },
+        {
+          "slug": "btc-updown-5m-1775659200",
+          "price_sum": 0.79,
+          "skew": 48,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1775669700",
+          "price_sum": 0.635,
+          "skew": 47,
+          "effective_horizon": 180,
+          "pnl": 8.349970640046976
+        },
+        {
+          "slug": "btc-updown-5m-1775690400",
+          "price_sum": 0.78,
+          "skew": 50,
+          "effective_horizon": 180,
+          "pnl": 3.089048066256762
+        },
+        {
+          "slug": "btc-updown-5m-1775760300",
+          "price_sum": 0.61,
+          "skew": 52,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1775824200",
+          "price_sum": 0.79,
+          "skew": 40,
+          "effective_horizon": 180,
+          "pnl": 2.619291742250965
+        },
+        {
+          "slug": "btc-updown-5m-1775856000",
+          "price_sum": 0.41,
+          "skew": 57,
+          "effective_horizon": 180,
+          "pnl": 19.710839256931916
+        },
+        {
+          "slug": "btc-updown-5m-1775856600",
+          "price_sum": 0.8200000000000001,
+          "skew": 51,
+          "effective_horizon": 180,
+          "pnl": 3.598457934870183
+        },
+        {
+          "slug": "btc-updown-5m-1776024900",
+          "price_sum": 1.0,
+          "skew": 1,
+          "effective_horizon": 180,
+          "pnl": 11.75911570953756
+        },
+        {
+          "slug": "btc-updown-5m-1776346500",
+          "price_sum": 0.84,
+          "skew": 45,
+          "effective_horizon": 180,
+          "pnl": 3.423944961825656
+        },
+        {
+          "slug": "btc-updown-5m-1776349200",
+          "price_sum": 0.76,
+          "skew": 57,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1776353700",
+          "price_sum": 1.0,
+          "skew": 3,
+          "effective_horizon": 180,
+          "pnl": 6.412882471451841
+        },
+        {
+          "slug": "btc-updown-5m-1776369600",
+          "price_sum": 0.655,
+          "skew": 50,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1776389100",
+          "price_sum": 0.75,
+          "skew": 50,
+          "effective_horizon": 180,
+          "pnl": 4.152729176912651
+        },
+        {
+          "slug": "btc-updown-5m-1776409200",
+          "price_sum": 0.82,
+          "skew": 52,
+          "effective_horizon": 180,
+          "pnl": 3.254205725154163
+        },
+        {
+          "slug": "btc-updown-5m-1776426600",
+          "price_sum": 0.81,
+          "skew": 50,
+          "effective_horizon": 180,
+          "pnl": 3.598457934870183
+        },
+        {
+          "slug": "btc-updown-5m-1776427200",
+          "price_sum": 0.55,
+          "skew": 55,
+          "effective_horizon": 180,
+          "pnl": 14.469171902049904
+        },
+        {
+          "slug": "btc-updown-5m-1776438600",
+          "price_sum": 0.76,
+          "skew": 48,
+          "effective_horizon": 180,
+          "pnl": 4.9723572853619
+        },
+        {
+          "slug": "btc-updown-5m-1776486900",
+          "price_sum": 1.0,
+          "skew": 5,
+          "effective_horizon": 180,
+          "pnl": 9.608708227323756
+        },
+        {
+          "slug": "btc-updown-5m-1776494100",
+          "price_sum": 0.74,
+          "skew": 51,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1776512700",
+          "price_sum": 0.5800000000000001,
+          "skew": 52,
+          "effective_horizon": 180,
+          "pnl": 17.989447978112253
+        },
+        {
+          "slug": "btc-updown-5m-1776630300",
+          "price_sum": 0.79,
+          "skew": 40,
+          "effective_horizon": 180,
+          "pnl": 4.348488924760112
+        },
+        {
+          "slug": "btc-updown-5m-1776749400",
+          "price_sum": 0.78,
+          "skew": 47,
+          "effective_horizon": 180,
+          "pnl": 5.421686746987952
+        },
+        {
+          "slug": "btc-updown-5m-1776788700",
+          "price_sum": 0.85,
+          "skew": 58,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1776800400",
+          "price_sum": 1.0,
+          "skew": 4,
+          "effective_horizon": 180,
+          "pnl": 4.152729176912651
+        },
+        {
+          "slug": "btc-updown-5m-1776803700",
+          "price_sum": 0.53,
+          "skew": 42,
+          "effective_horizon": 180,
+          "pnl": 11.75911570953756
+        },
+        {
+          "slug": "btc-updown-5m-1776808800",
+          "price_sum": 0.74,
+          "skew": 45,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1777104300",
+          "price_sum": 1.0,
+          "skew": 0,
+          "effective_horizon": 180,
+          "pnl": 3.598457934870183
+        },
+        {
+          "slug": "btc-updown-5m-1777375200",
+          "price_sum": 1.0,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": 7.861049961822005
+        },
+        {
+          "slug": "btc-updown-5m-1777375800",
+          "price_sum": 1.0,
+          "skew": 1,
+          "effective_horizon": 180,
+          "pnl": 8.18388453233322
+        },
+        {
+          "slug": "btc-updown-5m-1777714500",
+          "price_sum": 1.0,
+          "skew": 0,
+          "effective_horizon": 180,
+          "pnl": 3.7779477057994804
+        },
+        {
+          "slug": "btc-updown-5m-1778364600",
+          "price_sum": 0.885,
+          "skew": 0,
+          "effective_horizon": 180,
+          "pnl": 11.063717746182203
+        },
+        {
+          "slug": "btc-updown-5m-1780059000",
+          "price_sum": 1.0,
+          "skew": 0,
+          "effective_horizon": 180,
+          "pnl": 7.861049961822005
+        },
+        {
+          "slug": "btc-updown-5m-1780059600",
+          "price_sum": 1.0,
+          "skew": 0,
+          "effective_horizon": 180,
+          "pnl": 8.18388453233322
+        },
+        {
+          "slug": "btc-updown-5m-1781065800",
+          "price_sum": 1.0,
+          "skew": 1,
+          "effective_horizon": 180,
+          "pnl": 8.18388453233322
+        }
+      ],
+      "normalized_market_baseline": {
+        "trades": 40,
+        "wins": 28,
+        "net_pnl": 98.55881404317344,
+        "ruined_at_epoch": null
+      },
+      "selected_trades_partitions": {
+        "quote_skew_le_5": {
+          "count": 22,
+          "pnl": 105.75799474196117,
+          "wins": 20
+        },
+        "price_sum_ge_095": {
+          "count": 23,
+          "pnl": 90.1727115373605,
+          "wins": 20
+        },
+        "quote_skew_gt_5": {
+          "count": 42,
+          "pnl": 48.577971793138744,
+          "wins": 27
+        },
+        "price_sum_lt_095": {
+          "count": 41,
+          "pnl": 64.16325499773941,
+          "wins": 27
+        }
+      },
+      "selected_trades_calibration": {
+        "predicted_win_probability": 0.7410729087310441,
+        "actual_win_rate": 0.734375,
+        "normalized_market_probability": 0.680743687392295
+      }
+    },
+    "validation": {
+      "rows": 14982,
+      "brier_learned": 0.17263585538490075,
+      "brier_normalized_market": 0.17267144865297182,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "count": 1108,
+          "mean_probability": 0.05803958173713807,
+          "actual_up_rate": 0.06498194945848375
+        },
+        {
+          "lower": 0.1,
+          "count": 1575,
+          "mean_probability": 0.15044916500032918,
+          "actual_up_rate": 0.1434920634920635
+        },
+        {
+          "lower": 0.2,
+          "count": 1543,
+          "mean_probability": 0.2517310216491113,
+          "actual_up_rate": 0.23136746597537264
+        },
+        {
+          "lower": 0.3,
+          "count": 1563,
+          "mean_probability": 0.34974941917990865,
+          "actual_up_rate": 0.3237364043506078
+        },
+        {
+          "lower": 0.4,
+          "count": 1670,
+          "mean_probability": 0.45074214346310465,
+          "actual_up_rate": 0.4287425149700599
+        },
+        {
+          "lower": 0.5,
+          "count": 1725,
+          "mean_probability": 0.5489486554247867,
+          "actual_up_rate": 0.5495652173913044
+        },
+        {
+          "lower": 0.6,
+          "count": 1476,
+          "mean_probability": 0.6505891768949059,
+          "actual_up_rate": 0.6517615176151762
+        },
+        {
+          "lower": 0.7,
+          "count": 1593,
+          "mean_probability": 0.75005109790397,
+          "actual_up_rate": 0.7376020087884495
+        },
+        {
+          "lower": 0.8,
+          "count": 1478,
+          "mean_probability": 0.8500585462652157,
+          "actual_up_rate": 0.857916102841678
+        },
+        {
+          "lower": 0.9,
+          "count": 1251,
+          "mean_probability": 0.9440985228903791,
+          "actual_up_rate": 0.950439648281375
+        }
+      ],
+      "all_rows_timing": {
+        "rows": 14982,
+        "effective_horizon_counts": {
+          "180": 14980,
+          "120": 2
+        },
+        "quote_skew_seconds_quantiles": [
+          0.0,
+          1.0,
+          2.0,
+          10.0,
+          40.0
+        ],
+        "price_sum_quantiles": [
+          0.49,
+          0.925,
+          0.99,
+          1.0,
+          1.01,
+          1.07,
+          1.2999999999999998
+        ]
+      },
+      "selected_trades_timing": {
+        "rows": 48,
+        "effective_horizon_counts": {
+          "180": 48
+        },
+        "quote_skew_seconds_quantiles": [
+          0.0,
+          2.0,
+          3.0,
+          9.060000000000002,
+          10.0
+        ],
+        "price_sum_quantiles": [
+          0.49,
+          0.5464,
+          0.7605,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "trade_count": 48,
+      "net_pnl": 223.70194294075793,
+      "selected_trades_by_month": {
+        "2026-07": {
+          "trades": 2,
+          "pnl": -2.1389500381779953
+        },
+        "2026-08": {
+          "trades": 22,
+          "pnl": 106.04666202225609
+        },
+        "2026-09": {
+          "trades": 24,
+          "pnl": 119.79423095667983
+        }
+      },
+      "quote_skew_on_selected_trades": [
+        {
+          "slug": "btc-updown-5m-1785049200",
+          "price_sum": 1.0,
+          "skew": 0,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1785228000",
+          "price_sum": 1.0,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": 7.861049961822005
+        },
+        {
+          "slug": "btc-updown-5m-1785629400",
+          "price_sum": 1.0,
+          "skew": 0,
+          "effective_horizon": 180,
+          "pnl": 4.758023753039229
+        },
+        {
+          "slug": "btc-updown-5m-1786048500",
+          "price_sum": 0.81,
+          "skew": 3,
+          "effective_horizon": 180,
+          "pnl": 8.18388453233322
+        },
+        {
+          "slug": "btc-updown-5m-1786065300",
+          "price_sum": 0.88,
+          "skew": 1,
+          "effective_horizon": 180,
+          "pnl": 2.325934691035039
+        },
+        {
+          "slug": "btc-updown-5m-1786199400",
+          "price_sum": 0.985,
+          "skew": 1,
+          "effective_horizon": 180,
+          "pnl": 1.6536873723557068
+        },
+        {
+          "slug": "btc-updown-5m-1786290000",
+          "price_sum": 0.61,
+          "skew": 1,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1786595700",
+          "price_sum": 1.0,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": 7.861049961822005
+        },
+        {
+          "slug": "btc-updown-5m-1786773300",
+          "price_sum": 1.0,
+          "skew": 0,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1786844400",
+          "price_sum": 1.0,
+          "skew": 0,
+          "effective_horizon": 180,
+          "pnl": 45.935450490134386
+        },
+        {
+          "slug": "btc-updown-5m-1786917000",
+          "price_sum": 0.765,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1787117100",
+          "price_sum": 1.0,
+          "skew": 1,
+          "effective_horizon": 180,
+          "pnl": 7.861049961822005
+        },
+        {
+          "slug": "btc-updown-5m-1787130300",
+          "price_sum": 1.0,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": 8.18388453233322
+        },
+        {
+          "slug": "btc-updown-5m-1787433900",
+          "price_sum": 0.85,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": 3.089048066256762
+        },
+        {
+          "slug": "btc-updown-5m-1787447700",
+          "price_sum": 0.97,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": 4.9723572853619
+        },
+        {
+          "slug": "btc-updown-5m-1787718000",
+          "price_sum": 1.0,
+          "skew": 1,
+          "effective_horizon": 180,
+          "pnl": 8.18388453233322
+        },
+        {
+          "slug": "btc-updown-5m-1787720700",
+          "price_sum": 1.0,
+          "skew": 1,
+          "effective_horizon": 180,
+          "pnl": 8.18388453233322
+        },
+        {
+          "slug": "btc-updown-5m-1787721600",
+          "price_sum": 1.0,
+          "skew": 0,
+          "effective_horizon": 180,
+          "pnl": 7.861049961822005
+        },
+        {
+          "slug": "btc-updown-5m-1787724600",
+          "price_sum": 1.0,
+          "skew": 1,
+          "effective_horizon": 180,
+          "pnl": 8.18388453233322
+        },
+        {
+          "slug": "btc-updown-5m-1787891400",
+          "price_sum": 0.8300000000000001,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1788111900",
+          "price_sum": 0.7649999999999999,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1788122700",
+          "price_sum": 1.0,
+          "skew": 1,
+          "effective_horizon": 180,
+          "pnl": 12.764653322785708
+        },
+        {
+          "slug": "btc-updown-5m-1788163800",
+          "price_sum": 1.0,
+          "skew": 0,
+          "effective_horizon": 180,
+          "pnl": 7.861049961822005
+        },
+        {
+          "slug": "btc-updown-5m-1788167400",
+          "price_sum": 1.0,
+          "skew": 0,
+          "effective_horizon": 180,
+          "pnl": 8.18388453233322
+        },
+        {
+          "slug": "btc-updown-5m-1788222600",
+          "price_sum": 1.0,
+          "skew": 0,
+          "effective_horizon": 180,
+          "pnl": 8.18388453233322
+        },
+        {
+          "slug": "btc-updown-5m-1788223800",
+          "price_sum": 1.0,
+          "skew": 1,
+          "effective_horizon": 180,
+          "pnl": 8.18388453233322
+        },
+        {
+          "slug": "btc-updown-5m-1788314100",
+          "price_sum": 1.0,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": 7.861049961822005
+        },
+        {
+          "slug": "btc-updown-5m-1788314700",
+          "price_sum": 1.0,
+          "skew": 1,
+          "effective_horizon": 180,
+          "pnl": 7.861049961822005
+        },
+        {
+          "slug": "btc-updown-5m-1788318000",
+          "price_sum": 1.0,
+          "skew": 1,
+          "effective_horizon": 180,
+          "pnl": 7.861049961822005
+        },
+        {
+          "slug": "btc-updown-5m-1788319500",
+          "price_sum": 1.0,
+          "skew": 3,
+          "effective_horizon": 180,
+          "pnl": 7.861049961822005
+        },
+        {
+          "slug": "btc-updown-5m-1788402900",
+          "price_sum": 0.93,
+          "skew": 1,
+          "effective_horizon": 180,
+          "pnl": 6.412882471451841
+        },
+        {
+          "slug": "btc-updown-5m-1788459000",
+          "price_sum": 1.0,
+          "skew": 0,
+          "effective_horizon": 180,
+          "pnl": 8.18388453233322
+        },
+        {
+          "slug": "btc-updown-5m-1788462300",
+          "price_sum": 1.0,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": 8.020940332666559
+        },
+        {
+          "slug": "btc-updown-5m-1788463200",
+          "price_sum": 1.0,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": 8.020940332666559
+        },
+        {
+          "slug": "btc-updown-5m-1788465600",
+          "price_sum": 1.0,
+          "skew": 1,
+          "effective_horizon": 180,
+          "pnl": 7.250376273832469
+        },
+        {
+          "slug": "btc-updown-5m-1788477300",
+          "price_sum": 0.8300000000000001,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": 4.348488924760112
+        },
+        {
+          "slug": "btc-updown-5m-1788591300",
+          "price_sum": 0.765,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1788608400",
+          "price_sum": 0.49,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": 23.905488450942997
+        },
+        {
+          "slug": "btc-updown-5m-1788655800",
+          "price_sum": 0.865,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": 2.254901960784313
+        },
+        {
+          "slug": "btc-updown-5m-1788702000",
+          "price_sum": 0.895,
+          "skew": 3,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1788720900",
+          "price_sum": 0.765,
+          "skew": 4,
+          "effective_horizon": 180,
+          "pnl": 9.803548795944234
+        },
+        {
+          "slug": "btc-updown-5m-1788857400",
+          "price_sum": 0.97,
+          "skew": 8,
+          "effective_horizon": 180,
+          "pnl": 6.961298557017521
+        },
+        {
+          "slug": "btc-updown-5m-1788921900",
+          "price_sum": 0.75,
+          "skew": 3,
+          "effective_horizon": 180,
+          "pnl": 6.961298557017521
+        },
+        {
+          "slug": "btc-updown-5m-1789019700",
+          "price_sum": 0.695,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        },
+        {
+          "slug": "btc-updown-5m-1789058100",
+          "price_sum": 0.8500000000000001,
+          "skew": 3,
+          "effective_horizon": 180,
+          "pnl": 7.550094551134393
+        },
+        {
+          "slug": "btc-updown-5m-1789082100",
+          "price_sum": 0.96,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": 4.758023753039229
+        },
+        {
+          "slug": "btc-updown-5m-1789173900",
+          "price_sum": 0.75,
+          "skew": 2,
+          "effective_horizon": 180,
+          "pnl": 7.550094551134393
+        },
+        {
+          "slug": "btc-updown-5m-1789182000",
+          "price_sum": 1.0,
+          "skew": 10,
+          "effective_horizon": 180,
+          "pnl": -10.0
+        }
+      ],
+      "normalized_market_baseline": {
+        "trades": 16,
+        "wins": 10,
+        "net_pnl": -0.9606011508976753,
+        "ruined_at_epoch": null
+      },
+      "selected_trades_partitions": {
+        "quote_skew_le_5": {
+          "count": 46,
+          "pnl": 226.7406443837404,
+          "wins": 37
+        },
+        "price_sum_ge_095": {
+          "count": 30,
+          "pnl": 211.31627738796308,
+          "wins": 27
+        },
+        "price_sum_lt_095": {
+          "count": 18,
+          "pnl": 12.385665552794823,
+          "wins": 11
+        },
+        "quote_skew_gt_5": {
+          "count": 2,
+          "pnl": -3.038701442982479,
+          "wins": 1
+        }
+      },
+      "selected_trades_calibration": {
+        "predicted_win_probability": 0.6774933199981659,
+        "actual_win_rate": 0.7916666666666666,
+        "normalized_market_probability": 0.569074935672496
+      }
+    }
+  }
+}

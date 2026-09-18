@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {"id":"polymarket-gamma","access":"public HTTPS GET","url":"https://gamma-api.polymarket.com/markets","incremental_cost":"0","coverage":"bounded catalog pages","ttl_seconds":300,"retention":"local research; redistribution not authorized","fallback":"ABSTAIN"},
+    {"id":"polymarket-clob","access":"public HTTPS GET","url":"https://clob.polymarket.com/book","incremental_cost":"0","coverage":"bounded binary orderbooks","ttl_seconds":15,"delay":"provider timestamps plus local first_seen","fallback":"invalidate and REST resync"},
+    {"id":"coinbase","access":"public HTTPS GET","url":"https://api.exchange.coinbase.com/products/BTC-USD/ticker","incremental_cost":"0","coverage":"BTC-USD spot quote only","ttl_seconds":30,"fallback":"no actionable quote"},
+    {"id":"federal-reserve-rss","access":"public RSS","url":"https://www.federalreserve.gov/feeds/press_all.xml","incremental_cost":"0","coverage":"Federal Reserve press releases","ttl_seconds":1800,"fallback":"no new catalyst"},
+    {"id":"alphavantage","access":"project API key and entitlement required","url":"https://www.alphavantage.co/documentation/","cost":null,"cost_reason":"no account/entitlement supplied","status":"ACCESS_BLOCKED","coverage":"GLOBAL_QUOTE; no realtime assumption"},
+    {"id":"weathernext","access":"Google allowlist required","url":"https://developers.google.com/weathernext/guides/access-forecast","cost":null,"status":"ACCESS_BLOCKED","fallback":"no weather trade"},
+    {"id":"typesafe-jev","access":"project key and budget required","url":"https://docs.typesafe.ai/sdk","cost":null,"status":"ACCESS_BLOCKED","fallback":"deterministic research only"},
+    {"id":"social-derivatives","access":"no licensed provider configured","cost":null,"status":"DATA_BLOCKED","fallback":"no invented metrics"}
+  ]
+}

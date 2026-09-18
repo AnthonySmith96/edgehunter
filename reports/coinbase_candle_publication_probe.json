@@ -1,0 +1,90 @@
+[
+  {
+    "requested_at": "2026-09-18T13:53:13.783173+00:00",
+    "seconds_into_minute": 13.783173322677612,
+    "latest_candle": "2026-09-18T13:53:00+00:00",
+    "missing": []
+  },
+  {
+    "requested_at": "2026-09-18T13:53:19.080444+00:00",
+    "seconds_into_minute": 19.080443620681763,
+    "latest_candle": "2026-09-18T13:53:00+00:00",
+    "missing": []
+  },
+  {
+    "requested_at": "2026-09-18T13:53:24.363670+00:00",
+    "seconds_into_minute": 24.363670110702515,
+    "latest_candle": "2026-09-18T13:53:00+00:00",
+    "missing": []
+  },
+  {
+    "requested_at": "2026-09-18T13:53:29.644819+00:00",
+    "seconds_into_minute": 29.644818544387817,
+    "latest_candle": "2026-09-18T13:53:00+00:00",
+    "missing": []
+  },
+  {
+    "requested_at": "2026-09-18T13:53:34.846833+00:00",
+    "seconds_into_minute": 34.84683275222778,
+    "latest_candle": "2026-09-18T13:53:00+00:00",
+    "missing": []
+  },
+  {
+    "requested_at": "2026-09-18T13:53:40.015042+00:00",
+    "seconds_into_minute": 40.0150420665741,
+    "latest_candle": "2026-09-18T13:53:00+00:00",
+    "missing": []
+  },
+  {
+    "requested_at": "2026-09-18T13:53:45.180986+00:00",
+    "seconds_into_minute": 45.180986166000366,
+    "latest_candle": "2026-09-18T13:53:00+00:00",
+    "missing": []
+  },
+  {
+    "requested_at": "2026-09-18T13:53:50.480826+00:00",
+    "seconds_into_minute": 50.48082637786865,
+    "latest_candle": "2026-09-18T13:53:00+00:00",
+    "missing": []
+  },
+  {
+    "requested_at": "2026-09-18T13:53:55.746706+00:00",
+    "seconds_into_minute": 55.74670600891113,
+    "latest_candle": "2026-09-18T13:53:00+00:00",
+    "missing": []
+  },
+  {
+    "requested_at": "2026-09-18T13:54:00.947931+00:00",
+    "seconds_into_minute": 0.9479310512542725,
+    "latest_candle": "2026-09-18T13:53:00+00:00",
+    "missing": [
+      "2026-09-18T13:54:00+00:00"
+    ]
+  },
+  {
+    "requested_at": "2026-09-18T13:54:06.396540+00:00",
+    "seconds_into_minute": 6.396539688110352,
+    "latest_candle": "2026-09-18T13:53:00+00:00",
+    "missing": [
+      "2026-09-18T13:54:00+00:00"
+    ]
+  },
+  {
+    "requested_at": "2026-09-18T13:54:11.647755+00:00",
+    "seconds_into_minute": 11.647754907608032,
+    "latest_candle": "2026-09-18T13:54:00+00:00",
+    "missing": []
+  },
+  {
+    "requested_at": "2026-09-18T13:54:16.915051+00:00",
+    "seconds_into_minute": 16.915051460266113,
+    "latest_candle": "2026-09-18T13:54:00+00:00",
+    "missing": []
+  },
+  {
+    "requested_at": "2026-09-18T13:54:22.147404+00:00",
+    "seconds_into_minute": 22.147404432296753,
+    "latest_candle": "2026-09-18T13:54:00+00:00",
+    "missing": []
+  }
+]
